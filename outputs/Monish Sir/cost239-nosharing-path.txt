@@ -1,0 +1,91 @@
+FLR -
+
+========================= Final Network Statistics =========================
+a) Highest Utilized Slot Index(es): [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18] (used on 24 links)
+b) Total Spectrum Utilized Slots: 1839
+c) Request Blocking Probability: 0.00% (0 blocked / 110 total)
+d) Total Guard Bands Used: 462
+e) Network Fragmentation: 6.40%
+f) Total Number of Regenerations: 126
+g) Regenerator Node Usage:
+   Node '1': 2 times
+   Node '3': 20 times
+   Node '4': 16 times
+   Node '5': 12 times
+   Node '6': 14 times
+   Node '7': 30 times
+   Node '8': 9 times
+   Node '9': 13 times
+   Node '10': 10 times
+h) Total Execution Time: 0.3070 seconds
+j) Std. Deviation of Regenerator Usage: 8.5638
+
+FNS -
+
+========================= Final Network Statistics =========================
+a) Highest Utilized Slot Index(es): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] (used on 24 links)
+b) Total Spectrum Utilized Slots: 1781
+c) Request Blocking Probability: 0.00% (0 blocked / 110 total)
+d) Total Guard Bands Used: 462
+e) Network Fragmentation: 3.38%
+f) Total Number of Regenerations: 172
+g) Regenerator Node Usage:
+   Node '1': 2 times
+   Node '3': 26 times
+   Node '4': 24 times
+   Node '5': 20 times
+   Node '6': 30 times
+   Node '7': 32 times
+   Node '8': 10 times
+   Node '9': 18 times
+   Node '10': 10 times
+h) Total Execution Time: 0.2716 seconds
+j) Std. Deviation of Regenerator Usage: 11.3400
+
+SA-RAP -
+
+========================= Final Network Statistics =========================
+a) Highest Utilized Slot Index(es): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18] (used on 24 links)
+b) Total Spectrum Utilized Slots: 1834
+c) Request Blocking Probability: 0.00% (0 blocked / 110 total)
+d) Total Guard Bands Used: 462
+e) Network Fragmentation: 6.16%
+f) Total Number of Regenerations: 126
+g) Regenerator Node Usage:
+   Node '1': 2 times
+   Node '3': 19 times
+   Node '4': 16 times
+   Node '5': 16 times
+   Node '6': 12 times
+   Node '7': 30 times
+   Node '8': 8 times
+   Node '9': 13 times
+   Node '10': 10 times
+h) Total Execution Time: 0.3183 seconds
+i) SA-RAP Algorithm Usage:
+   - SA-RAP found a more spectrum-efficient solution 4 time(s).
+j) Std. Deviation of Regenerator Usage: 8.5850
+
+CRSA-RAP -
+
+========================= Final Network Statistics =========================
+a) Highest Utilized Slot Index(es): [0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19] (used on 24 links)
+b) Total Spectrum Utilized Slots: 1839
+c) Request Blocking Probability: 0.00% (0 blocked / 110 total)
+d) Total Guard Bands Used: 462
+e) Network Fragmentation: 6.13%
+f) Total Number of Regenerations: 126
+g) Regenerator Node Usage:
+   Node '1': 2 times
+   Node '3': 16 times
+   Node '4': 17 times
+   Node '5': 14 times
+   Node '6': 14 times
+   Node '7': 29 times
+   Node '8': 9 times
+   Node '9': 15 times
+   Node '10': 10 times
+h) Total Execution Time: 0.3341 seconds
+i) CRSA-RAP Algorithm Usage:
+   - CRSA-RAP found a more cost-aware solution 9 time(s).
+j) Std. Deviation of Regenerator Usage: 8.2282

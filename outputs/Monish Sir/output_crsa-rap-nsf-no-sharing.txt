@@ -1,0 +1,3518 @@
+[Running] python -u "c:\Users\sayak\OneDrive\Documents\rsa\finished\temporary\crsa-rap-nsf-no-sharing.py"
+
+==================== Phase 1: Primary Path Allocation ====================
+
+--- Preparing Request #1: A -> B ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #1: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #2: A -> C ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #2: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #3: A -> D ---
+   Path can be established in a single segment with 16-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['E']. Usage Cost: 0, Total Slots: 15.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['C']. Usage Cost: 0, Total Slots: 15.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #3: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #4: A -> E ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #4: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #5: A -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #5: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #6: A -> G ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 0, Total Slots: 11.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 0, Total Slots: 11.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #6: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #7: A -> H ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #7: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #8: A -> I ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['J']. Usage Cost: 0, Total Slots: 24.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['J']. Usage Cost: 0, Total Slots: 24.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #8: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #9: A -> J ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #9: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #10: A -> K ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 0, Total Slots: 26.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 0, Total Slots: 26.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #10: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #11: A -> L ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['K']. Usage Cost: 0, Total Slots: 8.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['D']. Usage Cost: 0, Total Slots: 8.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 1, Total Slots: 9.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 0, Total Slots: 9.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #11: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #12: A -> M ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['I']. Usage Cost: 0, Total Slots: 7.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['I']. Usage Cost: 0, Total Slots: 7.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 1, Total Slots: 10.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 1, Total Slots: 10.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #12: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #13: A -> N ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 2, Total Slots: 10.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['C']. Usage Cost: 0, Total Slots: 9.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['I']. Usage Cost: 1, Total Slots: 9.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['D']. Usage Cost: 0, Total Slots: 9.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #13: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #14: B -> A ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #14: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #15: B -> C ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #15: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #16: B -> D ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['E']. Usage Cost: 1, Total Slots: 23.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['C']. Usage Cost: 1, Total Slots: 23.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #16: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #17: B -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #17: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #18: B -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #18: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #19: B -> G ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #19: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #20: B -> H ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['G']. Usage Cost: 0, Total Slots: 24.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['G']. Usage Cost: 0, Total Slots: 24.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #20: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #21: B -> I ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['J']. Usage Cost: 1, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['J']. Usage Cost: 1, Total Slots: 20.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #21: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #22: B -> J ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['I']. Usage Cost: 1, Total Slots: 14.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['I']. Usage Cost: 1, Total Slots: 14.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #22: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #23: B -> K ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['D']. Usage Cost: 1, Total Slots: 28.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['A']. Usage Cost: 0, Total Slots: 23.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['L']. Usage Cost: 0, Total Slots: 21.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['L']. Usage Cost: 0, Total Slots: 21.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #23: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #24: B -> L ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 2, Total Slots: 34.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 2, Total Slots: 34.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #24: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #25: B -> M ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 3, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 3, Total Slots: 20.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #25: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #26: B -> N ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['M']. Usage Cost: 0, Total Slots: 7.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 0, Total Slots: 7.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 4, Total Slots: 8.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['C']. Usage Cost: 1, Total Slots: 8.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #26: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #27: C -> A ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #27: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #28: C -> B ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #28: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #29: C -> D ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #29: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #30: C -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #30: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #31: C -> F ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #31: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #32: C -> G ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 1, Total Slots: 14.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 1, Total Slots: 14.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #32: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #33: C -> H ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #33: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #34: C -> I ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['J']. Usage Cost: 2, Total Slots: 11.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['J']. Usage Cost: 2, Total Slots: 11.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 2, Total Slots: 11.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 1, Total Slots: 11.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #34: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #35: C -> J ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['G']. Usage Cost: 1, Total Slots: 10.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['A']. Usage Cost: 1, Total Slots: 9.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #35: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #36: C -> K ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['N']. Usage Cost: 0, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 0, Total Slots: 20.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #36: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #37: C -> L ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['N']. Usage Cost: 1, Total Slots: 9.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 1, Total Slots: 9.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 2, Total Slots: 10.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 2, Total Slots: 9.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #37: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #38: C -> M ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['N']. Usage Cost: 2, Total Slots: 17.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 2, Total Slots: 17.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 2, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 2, Total Slots: 20.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #38: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #39: C -> N ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 3, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 3, Total Slots: 20.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #39: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #40: D -> A ---
+   Path can be established in a single segment with 16-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['C']. Usage Cost: 2, Total Slots: 15.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['E']. Usage Cost: 2, Total Slots: 15.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #40: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #41: D -> B ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['C']. Usage Cost: 3, Total Slots: 8.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['E']. Usage Cost: 2, Total Slots: 8.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #41: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #42: D -> C ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #42: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #43: D -> E ---
+   Path can be established in a single segment with 16-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 4, Total Slots: 25.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['A']. Usage Cost: 2, Total Slots: 23.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #43: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #44: D -> F ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #44: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #45: D -> G ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['I']. Usage Cost: 2, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['L']. Usage Cost: 1, Total Slots: 20.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #45: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #46: D -> H ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['I']. Usage Cost: 2, Total Slots: 9.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['K']. Usage Cost: 1, Total Slots: 10.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #46: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #47: D -> I ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #47: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #48: D -> J ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['I']. Usage Cost: 2, Total Slots: 15.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['I']. Usage Cost: 2, Total Slots: 15.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #48: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #49: D -> K ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['L']. Usage Cost: 2, Total Slots: 18.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['G']. Usage Cost: 1, Total Slots: 20.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #49: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #50: D -> L ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #50: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #51: D -> M ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #51: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #52: D -> N ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #52: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #53: E -> A ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #53: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #54: E -> B ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #54: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #55: E -> C ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #55: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #56: E -> D ---
+   Path can be established in a single segment with 16-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['A']. Usage Cost: 3, Total Slots: 9.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['A']. Usage Cost: 3, Total Slots: 9.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #56: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #57: E -> F ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #57: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #58: E -> G ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #58: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #59: E -> H ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #59: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #60: E -> I ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #60: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #61: E -> J ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #61: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #62: E -> K ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #62: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #63: E -> L ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #63: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #64: E -> M ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #64: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #65: E -> N ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #65: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #66: F -> A ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #66: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #67: F -> B ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #67: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #68: F -> C ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #68: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #69: F -> D ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #69: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #70: F -> E ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #70: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #71: F -> G ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #71: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #72: F -> H ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #72: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #73: F -> I ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #73: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #74: F -> J ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #74: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #75: F -> K ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #75: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #76: F -> L ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #76: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #77: F -> M ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #77: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #78: F -> N ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #78: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #79: G -> A ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['B']. Usage Cost: 3, Total Slots: 10.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 3, Total Slots: 10.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #79: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #80: G -> B ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #80: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #81: G -> C ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['B']. Usage Cost: 4, Total Slots: 8.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 4, Total Slots: 8.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #81: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #82: G -> D ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['K']. Usage Cost: 2, Total Slots: 22.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['L']. Usage Cost: 2, Total Slots: 18.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #82: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #83: G -> E ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #83: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #84: G -> F ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #84: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #85: G -> H ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #85: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #86: G -> I ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #86: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #87: G -> J ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #87: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #88: G -> K ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #88: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #89: G -> L ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #89: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #90: G -> M ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #90: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #91: G -> N ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #91: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #92: H -> A ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #92: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #93: H -> B ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['A']. Usage Cost: 4, Total Slots: 12.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['D']. Usage Cost: 1, Total Slots: 14.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #93: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #94: H -> C ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #94: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #95: H -> D ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['K']. Usage Cost: 2, Total Slots: 12.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['K']. Usage Cost: 2, Total Slots: 12.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #95: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #96: H -> E ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #96: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #97: H -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #97: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #98: H -> G ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #98: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #99: H -> I ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #99: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #100: H -> J ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #100: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #101: H -> K ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['M']. Usage Cost: 1, Total Slots: 20.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 1, Total Slots: 20.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #101: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #102: H -> L ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['N']. Usage Cost: 3, Total Slots: 23.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['G']. Usage Cost: 2, Total Slots: 24.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #102: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #103: H -> M ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['N']. Usage Cost: 3, Total Slots: 18.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 3, Total Slots: 18.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #103: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #104: H -> N ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #104: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #105: I -> A ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 4, Total Slots: 18.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['J']. Usage Cost: 3, Total Slots: 14.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #105: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #106: I -> B ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 4, Total Slots: 14.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['J']. Usage Cost: 4, Total Slots: 11.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #106: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #107: I -> C ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 4, Total Slots: 25.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 4, Total Slots: 25.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['B']. Usage Cost: 5, Total Slots: 23.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 4, Total Slots: 23.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #107: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #108: I -> D ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #108: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #109: I -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #109: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #110: I -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #110: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #111: I -> G ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #111: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #112: I -> H ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #112: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #113: I -> J ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #113: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #114: I -> K ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #114: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #115: I -> L ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #115: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #116: I -> M ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #116: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #117: I -> N ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 16-QAM.
+Request #117: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #118: J -> A ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #118: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #119: J -> B ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 5, Total Slots: 25.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['I']. Usage Cost: 3, Total Slots: 23.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #119: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #120: J -> C ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['A']. Usage Cost: 4, Total Slots: 15.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['D']. Usage Cost: 2, Total Slots: 17.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #120: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #121: J -> D ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['K']. Usage Cost: 3, Total Slots: 32.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['L']. Usage Cost: 3, Total Slots: 27.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #121: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #122: J -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #122: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #123: J -> F ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #123: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #124: J -> G ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #124: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #125: J -> H ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #125: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #126: J -> I ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with QPSK.
+Request #126: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #127: J -> K ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['M']. Usage Cost: 2, Total Slots: 11.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 2, Total Slots: 11.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #127: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #128: J -> L ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #128: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #129: J -> M ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #129: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #130: J -> N ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #130: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #131: K -> A ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 5, Total Slots: 23.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 5, Total Slots: 23.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #131: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #132: K -> B ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['A']. Usage Cost: 4, Total Slots: 8.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['D']. Usage Cost: 3, Total Slots: 10.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 6, Total Slots: 8.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['L']. Usage Cost: 4, Total Slots: 8.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #132: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #133: K -> C ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 5, Total Slots: 17.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 4, Total Slots: 17.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #133: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #134: K -> D ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['E']. Usage Cost: 3, Total Slots: 23.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['E']. Usage Cost: 3, Total Slots: 23.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #134: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #135: K -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #135: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #136: K -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #136: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #137: K -> G ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #137: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #138: K -> H ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['G']. Usage Cost: 3, Total Slots: 17.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 3, Total Slots: 17.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #138: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #139: K -> I ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #139: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #140: K -> J ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['G']. Usage Cost: 4, Total Slots: 15.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 3, Total Slots: 14.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #140: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #141: K -> L ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #141: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #142: K -> M ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #142: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #143: K -> N ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #143: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #144: L -> A ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['D']. Usage Cost: 4, Total Slots: 24.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['K']. Usage Cost: 3, Total Slots: 24.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['B']. Usage Cost: 5, Total Slots: 27.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 5, Total Slots: 27.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #144: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #145: L -> B ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 5, Total Slots: 30.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 5, Total Slots: 30.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #145: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #146: L -> C ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 6, Total Slots: 7.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 5, Total Slots: 6.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['B']. Usage Cost: 6, Total Slots: 6.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['B']. Usage Cost: 6, Total Slots: 6.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #146: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #147: L -> D ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #147: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #148: L -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #148: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #149: L -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #149: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #150: L -> G ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #150: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #151: L -> H ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['G']. Usage Cost: 4, Total Slots: 18.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 4, Total Slots: 18.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #151: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #152: L -> I ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #152: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #153: L -> J ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #153: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #154: L -> K ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #154: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #155: L -> M ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 16-QAM.
+Request #155: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #156: L -> N ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #156: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #157: M -> A ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['D']. Usage Cost: 4, Total Slots: 9.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['I']. Usage Cost: 4, Total Slots: 9.
+   >> FLR solution is better or equal. Using FLR segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 6, Total Slots: 12.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 6, Total Slots: 12.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #157: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #158: M -> B ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 7, Total Slots: 12.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['F']. Usage Cost: 7, Total Slots: 12.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #158: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #159: M -> C ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['F']. Usage Cost: 8, Total Slots: 24.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['N']. Usage Cost: 6, Total Slots: 20.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['B']. Usage Cost: 7, Total Slots: 21.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 6, Total Slots: 24.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #159: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #160: M -> D ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #160: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #161: M -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #161: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #162: M -> F ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #162: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #163: M -> G ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #163: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #164: M -> H ---
+   Path can be established in a single segment with 8-QAM.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['G']. Usage Cost: 5, Total Slots: 21.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['I']. Usage Cost: 4, Total Slots: 24.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+Request #164: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #165: M -> I ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #165: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #166: M -> J ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #166: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #167: M -> K ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #167: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #168: M -> L ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 16-QAM.
+Request #168: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #169: M -> N ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #169: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #170: N -> A ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['D']. Usage Cost: 5, Total Slots: 14.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['E']. Usage Cost: 4, Total Slots: 15.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['C']. Usage Cost: 3, Total Slots: 14.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['C']. Usage Cost: 3, Total Slots: 14.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #170: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #171: N -> B ---
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 7, Total Slots: 27.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['M']. Usage Cost: 4, Total Slots: 23.
+   >> CRSA-RAP found a better solution. Using CRSA-RAP segmentation.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['C']. Usage Cost: 4, Total Slots: 24.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['C']. Usage Cost: 4, Total Slots: 24.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #171: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #172: N -> C ---
+   Path can be established in a single segment with QPSK.
+   Path is too long. Running FLR to find baseline regenerator placement.
+     - FLR Result: 1 regenerator(s) at ['H']. Usage Cost: 7, Total Slots: 15.
+     - Running CRSA-RAP with 1 regenerator(s) to find a cost-aware placement...
+     - CRSA-RAP Best Find: Regenerator(s) at ['H']. Usage Cost: 7, Total Slots: 15.
+   >> FLR solution is better or equal. Using FLR segmentation.
+Request #172: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #173: N -> D ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #173: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #174: N -> E ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #174: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #175: N -> F ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #175: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #176: N -> G ---
+   Path can be established in a single segment with QPSK.
+   Path can be established in a single segment with QPSK.
+Request #176: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #177: N -> H ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #177: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #178: N -> I ---
+   Path can be established in a single segment with 16-QAM.
+   Path can be established in a single segment with 16-QAM.
+Request #178: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #179: N -> J ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with QPSK.
+Request #179: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #180: N -> K ---
+   Path can be established in a single segment with 8-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #180: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #181: N -> L ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #181: Primary path SUCCESS. Queued for backup.
+
+--- Preparing Request #182: N -> M ---
+   Path can be established in a single segment with 32-QAM.
+   Path can be established in a single segment with 8-QAM.
+Request #182: Primary path SUCCESS. Queued for backup.
+
+==================== Phase 2: Grouping Backup Paths ====================
+Request #1 created new backup set 0.
+Request #2 added to existing backup set 0.
+Request #3 added to existing backup set 0.
+Request #4 created new backup set 1.
+Request #5 added to existing backup set 1.
+Request #6 created new backup set 2.
+Request #7 created new backup set 3.
+Request #8 created new backup set 4.
+Request #9 created new backup set 5.
+Request #10 created new backup set 6.
+Request #11 created new backup set 7.
+Request #12 created new backup set 8.
+Request #13 added to existing backup set 2.
+Request #14 added to existing backup set 1.
+Request #15 added to existing backup set 0.
+Request #16 created new backup set 9.
+Request #17 created new backup set 10.
+Request #18 added to existing backup set 9.
+Request #19 created new backup set 11.
+Request #20 added to existing backup set 2.
+Request #21 added to existing backup set 0.
+Request #22 added to existing backup set 7.
+Request #23 created new backup set 12.
+Request #24 added to existing backup set 1.
+Request #25 added to existing backup set 6.
+Request #26 added to existing backup set 9.
+Request #27 added to existing backup set 9.
+Request #28 added to existing backup set 1.
+Request #29 created new backup set 13.
+Request #30 created new backup set 14.
+Request #31 added to existing backup set 0.
+Request #32 created new backup set 15.
+Request #33 added to existing backup set 4.
+Request #34 added to existing backup set 12.
+Request #35 added to existing backup set 4.
+Request #36 created new backup set 16.
+Request #37 added to existing backup set 15.
+Request #38 added to existing backup set 3.
+Request #39 added to existing backup set 6.
+Request #40 created new backup set 17.
+Request #41 created new backup set 18.
+Request #42 created new backup set 19.
+Request #43 added to existing backup set 0.
+Request #44 added to existing backup set 6.
+Request #45 added to existing backup set 12.
+Request #46 added to existing backup set 7.
+Request #47 created new backup set 20.
+Request #48 created new backup set 21.
+Request #49 added to existing backup set 2.
+Request #50 added to existing backup set 4.
+Request #51 added to existing backup set 16.
+Request #52 created new backup set 22.
+Request #53 created new backup set 23.
+Request #54 created new backup set 24.
+Request #55 created new backup set 25.
+Request #56 added to existing backup set 9.
+Request #57 added to existing backup set 4.
+Request #58 added to existing backup set 0.
+Request #59 added to existing backup set 9.
+Request #60 added to existing backup set 10.
+Request #61 added to existing backup set 1.
+Request #62 created new backup set 26.
+Request #63 added to existing backup set 13.
+Request #64 added to existing backup set 14.
+Request #65 added to existing backup set 17.
+Request #66 added to existing backup set 17.
+Request #67 added to existing backup set 13.
+Request #68 added to existing backup set 10.
+Request #69 added to existing backup set 17.
+Request #70 added to existing backup set 0.
+Request #71 created new backup set 27.
+Request #72 added to existing backup set 26.
+Request #73 added to existing backup set 6.
+Request #74 added to existing backup set 0.
+Request #75 added to existing backup set 0.
+Request #76 added to existing backup set 4.
+Request #77 added to existing backup set 10.
+Request #78 added to existing backup set 9.
+Request #79 created new backup set 28.
+Request #80 added to existing backup set 18.
+Request #81 created new backup set 29.
+Request #82 created new backup set 30.
+Request #83 added to existing backup set 18.
+Request #84 created new backup set 31.
+Request #85 added to existing backup set 0.
+Request #86 added to existing backup set 21.
+Request #87 added to existing backup set 2.
+Request #88 added to existing backup set 2.
+Request #89 added to existing backup set 27.
+Request #90 added to existing backup set 12.
+Request #91 added to existing backup set 15.
+Request #92 created new backup set 32.
+Request #93 added to existing backup set 13.
+Request #94 added to existing backup set 17.
+Request #95 created new backup set 33.
+Request #96 added to existing backup set 6.
+Request #97 created new backup set 34.
+Request #98 added to existing backup set 30.
+Request #99 added to existing backup set 30.
+Request #100 added to existing backup set 11.
+Request #101 added to existing backup set 26.
+Request #102 added to existing backup set 3.
+Request #103 added to existing backup set 7.
+Request #104 added to existing backup set 18.
+Request #105 created new backup set 35.
+Request #106 added to existing backup set 5.
+Request #107 added to existing backup set 26.
+Request #108 created new backup set 36.
+Request #109 added to existing backup set 19.
+Request #110 added to existing backup set 2.
+Request #111 added to existing backup set 31.
+Request #112 added to existing backup set 28.
+Request #113 added to existing backup set 30.
+Request #114 added to existing backup set 6.
+Request #115 added to existing backup set 7.
+Request #116 added to existing backup set 2.
+Request #117 added to existing backup set 4.
+Request #118 created new backup set 37.
+Request #119 added to existing backup set 30.
+Request #120 added to existing backup set 18.
+Request #121 created new backup set 38.
+Request #122 added to existing backup set 23.
+Request #123 added to existing backup set 9.
+Request #124 added to existing backup set 30.
+Request #125 added to existing backup set 29.
+Request #126 added to existing backup set 0.
+Request #127 added to existing backup set 18.
+Request #128 added to existing backup set 4.
+Request #129 added to existing backup set 1.
+Request #130 added to existing backup set 5.
+Request #131 added to existing backup set 30.
+Request #132 added to existing backup set 33.
+Request #133 added to existing backup set 22.
+Request #134 added to existing backup set 0.
+Request #135 added to existing backup set 18.
+Request #136 added to existing backup set 5.
+Request #137 added to existing backup set 38.
+Request #138 added to existing backup set 34.
+Request #139 added to existing backup set 16.
+Request #140 added to existing backup set 9.
+Request #141 added to existing backup set 1.
+Request #142 added to existing backup set 2.
+Request #143 added to existing backup set 3.
+Request #144 added to existing backup set 20.
+Request #145 added to existing backup set 24.
+Request #146 added to existing backup set 33.
+Request #147 added to existing backup set 13.
+Request #148 added to existing backup set 25.
+Request #149 added to existing backup set 30.
+Request #150 created new backup set 39.
+Request #151 created new backup set 40.
+Request #152 added to existing backup set 12.
+Request #153 added to existing backup set 22.
+Request #154 added to existing backup set 12.
+Request #155 added to existing backup set 2.
+Request #156 added to existing backup set 6.
+Request #157 created new backup set 41.
+Request #158 added to existing backup set 23.
+Request #159 added to existing backup set 20.
+Request #160 created new backup set 42.
+Request #161 created new backup set 43.
+Request #162 added to existing backup set 26.
+Request #163 created new backup set 44.
+Request #164 added to existing backup set 33.
+Request #165 added to existing backup set 3.
+Request #166 added to existing backup set 10.
+Request #167 added to existing backup set 12.
+Request #168 added to existing backup set 7.
+Request #169 added to existing backup set 12.
+Request #170 created new backup set 45.
+Request #171 added to existing backup set 37.
+Request #172 added to existing backup set 16.
+Request #173 created new backup set 46.
+Request #174 created new backup set 47.
+Request #175 added to existing backup set 12.
+Request #176 created new backup set 48.
+Request #177 created new backup set 49.
+Request #178 added to existing backup set 30.
+Request #179 added to existing backup set 13.
+Request #180 added to existing backup set 33.
+Request #181 added to existing backup set 12.
+Request #182 added to existing backup set 6.
+
+==================== Phase 3: Backup Path Allocation ====================
+
+--> Allocating backups for Set #0 (size: 14): [1, 2, 3, 15, 21, 31, 43, 58, 70, 74, 75, 85, 126, 134]
+  Request #1: Backup SUCCESSFUL.
+  Request #2: Backup SUCCESSFUL.
+  Request #3: Backup SUCCESSFUL.
+  Request #15: Backup SUCCESSFUL.
+  Request #21: Backup SUCCESSFUL.
+  Request #31: Backup SUCCESSFUL.
+  Request #43: Backup SUCCESSFUL.
+  Request #58: Backup SUCCESSFUL.
+  Request #70: Backup SUCCESSFUL.
+  Request #74: Backup SUCCESSFUL.
+  Request #75: Backup SUCCESSFUL.
+  Request #85: Backup SUCCESSFUL.
+  Request #126: Backup SUCCESSFUL.
+  Request #134: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #1 (size: 10): [6, 13, 20, 49, 87, 88, 110, 116, 142, 155]
+  Request #6: Backup SUCCESSFUL.
+  Request #13: Backup SUCCESSFUL.
+  Request #20: Backup SUCCESSFUL.
+  Request #49: Backup SUCCESSFUL.
+  Request #87: Backup SUCCESSFUL.
+  Request #88: Backup SUCCESSFUL.
+  Request #110: Backup SUCCESSFUL.
+  Request #116: Backup SUCCESSFUL.
+  Request #142: Backup SUCCESSFUL.
+  Request #155: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #2 (size: 10): [23, 34, 45, 90, 152, 154, 167, 169, 175, 181]
+  Request #23: Backup SUCCESSFUL.
+  Request #34: Backup SUCCESSFUL.
+  Request #45: Backup SUCCESSFUL.
+  Request #90: Backup SUCCESSFUL.
+  Request #152: Backup SUCCESSFUL.
+  Request #154: Backup SUCCESSFUL.
+  Request #167: Backup SUCCESSFUL.
+  Request #169: Backup SUCCESSFUL.
+  Request #175: Backup SUCCESSFUL.
+  Request #181: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #3 (size: 9): [10, 25, 39, 44, 73, 96, 114, 156, 182]
+  Request #10: Backup SUCCESSFUL.
+  Request #25: Backup SUCCESSFUL.
+  Request #39: Backup SUCCESSFUL.
+  Request #44: Backup SUCCESSFUL.
+  Request #73: Backup SUCCESSFUL.
+  Request #96: Backup SUCCESSFUL.
+  Request #114: Backup SUCCESSFUL.
+  Request #156: Backup SUCCESSFUL.
+  Request #182: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #4 (size: 9): [16, 18, 26, 27, 56, 59, 78, 123, 140]
+  Request #16: Backup SUCCESSFUL.
+  Request #18: Backup SUCCESSFUL.
+  Request #26: Backup SUCCESSFUL.
+  Request #27: Backup SUCCESSFUL.
+  Request #56: Backup SUCCESSFUL.
+  Request #59: Backup SUCCESSFUL.
+  Request #78: Backup SUCCESSFUL.
+  Request #123: Backup SUCCESSFUL.
+  Request #140: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #5 (size: 9): [82, 98, 99, 113, 119, 124, 131, 149, 178]
+  Request #82: Backup SUCCESSFUL.
+  Request #98: Backup SUCCESSFUL.
+  Request #99: Backup SUCCESSFUL.
+  Request #113: Backup SUCCESSFUL.
+  Request #119: Backup SUCCESSFUL.
+  Request #124: Backup SUCCESSFUL.
+  Request #131: Backup SUCCESSFUL.
+  Request #149: Backup SUCCESSFUL.
+  Request #178: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #6 (size: 8): [4, 5, 14, 24, 28, 61, 129, 141]
+  Request #4: Backup SUCCESSFUL.
+  Request #5: Backup SUCCESSFUL.
+  Request #14: Backup SUCCESSFUL.
+  Request #24: Backup SUCCESSFUL.
+  Request #28: Backup SUCCESSFUL.
+  Request #61: Backup SUCCESSFUL.
+  Request #129: Backup SUCCESSFUL.
+  Request #141: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #7 (size: 8): [8, 33, 35, 50, 57, 76, 117, 128]
+  Request #8: Backup SUCCESSFUL.
+  Request #33: Backup SUCCESSFUL.
+  Request #35: Backup SUCCESSFUL.
+  Request #50: Backup SUCCESSFUL.
+  Request #57: Backup SUCCESSFUL.
+  Request #76: Backup SUCCESSFUL.
+  Request #117: Backup SUCCESSFUL.
+  Request #128: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #8 (size: 7): [41, 80, 83, 104, 120, 127, 135]
+  Request #41: Backup SUCCESSFUL.
+  Request #80: Backup SUCCESSFUL.
+  Request #83: Backup SUCCESSFUL.
+  Request #104: Backup SUCCESSFUL.
+  Request #120: Backup SUCCESSFUL.
+  Request #127: Backup SUCCESSFUL.
+  Request #135: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #9 (size: 6): [11, 22, 46, 103, 115, 168]
+  Request #11: Backup SUCCESSFUL.
+  Request #22: Backup SUCCESSFUL.
+  Request #46: Backup SUCCESSFUL.
+  Request #103: Backup SUCCESSFUL.
+  Request #115: Backup SUCCESSFUL.
+  Request #168: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #10 (size: 6): [29, 63, 67, 93, 147, 179]
+  Request #29: Backup SUCCESSFUL.
+  Request #63: Backup SUCCESSFUL.
+  Request #67: Backup SUCCESSFUL.
+  Request #93: Backup SUCCESSFUL.
+  Request #147: Backup SUCCESSFUL.
+  Request #179: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #11 (size: 5): [7, 38, 102, 143, 165]
+  Request #7: Backup SUCCESSFUL.
+  Request #38: Backup SUCCESSFUL.
+  Request #102: Backup SUCCESSFUL.
+  Request #143: Backup SUCCESSFUL.
+  Request #165: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #12 (size: 5): [17, 60, 68, 77, 166]
+  Request #17: Backup SUCCESSFUL.
+  Request #60: Backup SUCCESSFUL.
+  Request #68: Backup SUCCESSFUL.
+  Request #77: Backup SUCCESSFUL.
+  Request #166: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #13 (size: 5): [40, 65, 66, 69, 94]
+  Request #40: Backup SUCCESSFUL.
+  Request #65: Backup SUCCESSFUL.
+  Request #66: Backup SUCCESSFUL.
+  Request #69: Backup SUCCESSFUL.
+  Request #94: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #14 (size: 5): [62, 72, 101, 107, 162]
+  Request #62: Backup SUCCESSFUL.
+  Request #72: Backup SUCCESSFUL.
+  Request #101: Backup SUCCESSFUL.
+  Request #107: Backup SUCCESSFUL.
+  Request #162: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #15 (size: 5): [95, 132, 146, 164, 180]
+  Request #95: Backup SUCCESSFUL.
+  Request #132: Backup SUCCESSFUL.
+  Request #146: Backup SUCCESSFUL.
+  Request #164: Backup SUCCESSFUL.
+  Request #180: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #16 (size: 4): [9, 106, 130, 136]
+  Request #9: Backup SUCCESSFUL.
+  Request #106: Backup SUCCESSFUL.
+  Request #130: Backup SUCCESSFUL.
+  Request #136: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #17 (size: 4): [36, 51, 139, 172]
+  Request #36: Backup SUCCESSFUL.
+  Request #51: Backup SUCCESSFUL.
+  Request #139: Backup SUCCESSFUL.
+  Request #172: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #18 (size: 3): [32, 37, 91]
+  Request #32: Backup SUCCESSFUL.
+  Request #37: Backup SUCCESSFUL.
+  Request #91: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #19 (size: 3): [47, 144, 159]
+  Request #47: Backup SUCCESSFUL.
+  Request #144: Backup SUCCESSFUL.
+  Request #159: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #20 (size: 3): [52, 133, 153]
+  Request #52: Backup SUCCESSFUL.
+  Request #133: Backup SUCCESSFUL.
+  Request #153: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #21 (size: 3): [53, 122, 158]
+  Request #53: Backup SUCCESSFUL.
+  Request #122: Backup SUCCESSFUL.
+  Request #158: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #22 (size: 2): [19, 100]
+  Request #19: Backup SUCCESSFUL.
+  Request #100: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #23 (size: 2): [30, 64]
+  Request #30: Backup SUCCESSFUL.
+  Request #64: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #24 (size: 2): [42, 109]
+  Request #42: Backup SUCCESSFUL.
+  Request #109: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #25 (size: 2): [48, 86]
+  Request #48: Backup SUCCESSFUL.
+  Request #86: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #26 (size: 2): [54, 145]
+  Request #54: Backup SUCCESSFUL.
+  Request #145: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #27 (size: 2): [55, 148]
+  Request #55: Backup SUCCESSFUL.
+  Request #148: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #28 (size: 2): [71, 89]
+  Request #71: Backup SUCCESSFUL.
+  Request #89: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #29 (size: 2): [79, 112]
+  Request #79: Backup SUCCESSFUL.
+  Request #112: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #30 (size: 2): [81, 125]
+  Request #81: Backup SUCCESSFUL.
+  Request #125: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #31 (size: 2): [84, 111]
+  Request #84: Backup SUCCESSFUL.
+  Request #111: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #32 (size: 2): [97, 138]
+  Request #97: Backup SUCCESSFUL.
+  Request #138: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #33 (size: 2): [118, 171]
+  Request #118: Backup SUCCESSFUL.
+  Request #171: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #34 (size: 2): [121, 137]
+  Request #121: Backup SUCCESSFUL.
+  Request #137: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #35 (size: 1): [12]
+  Request #12: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #36 (size: 1): [92]
+  Request #92: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #37 (size: 1): [105]
+  Request #105: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #38 (size: 1): [108]
+  Request #108: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #39 (size: 1): [150]
+  Request #150: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #40 (size: 1): [151]
+  Request #151: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #41 (size: 1): [157]
+  Request #157: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #42 (size: 1): [160]
+  Request #160: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #43 (size: 1): [161]
+  Request #161: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #44 (size: 1): [163]
+  Request #163: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #45 (size: 1): [170]
+  Request #170: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #46 (size: 1): [173]
+  Request #173: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #47 (size: 1): [174]
+  Request #174: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #48 (size: 1): [176]
+  Request #176: Backup SUCCESSFUL.
+
+--> Allocating backups for Set #49 (size: 1): [177]
+  Request #177: Backup SUCCESSFUL.
+
+========================= Request Log Summary =========================
+
+--- Req #1: A -> B, Status: SUCCESS ---
+   - Bandwidth: 157 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> B | Slots Used: 0-4
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: A -> C -> B | Slots Used: 48-52
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+
+--- Req #2: A -> C, Status: SUCCESS ---
+   - Bandwidth: 112 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> C | Slots Used: 0-2
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: A -> B -> C | Slots Used: 54-56
+       Modulation: 8-QAM, Slots Needed (for each link): 3
+
+--- Req #3: A -> D, Status: SUCCESS ---
+   - Bandwidth: 240 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D | Slots Used: 0-4
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: A -> C -> F -> E | Slots Used: 268-277
+       Modulation: QPSK, Slots Needed (for each link): 10
+     * Segment 2: E -> D | Slots Used: 223-227
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #4: A -> E, Status: SUCCESS ---
+   - Bandwidth: 225 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> E | Slots Used: 6-11
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: A -> C -> F -> E | Slots Used: 323-331
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #5: A -> F, Status: SUCCESS ---
+   - Bandwidth: 214 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> C -> F | Slots Used: 4-12
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: A -> D -> E -> F | Slots Used: 434-442
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #6: A -> G, Status: SUCCESS ---
+   - Bandwidth: 171 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> E -> G | Slots Used: 13-19
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: A -> B -> H | Slots Used: 36-42
+       Modulation: QPSK, Slots Needed (for each link): 7
+     * Segment 2: H -> G | Slots Used: 46-49
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+
+--- Req #7: A -> H, Status: SUCCESS ---
+   - Bandwidth: 152 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> E -> G -> H | Slots Used: 21-27
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: A -> B -> H | Slots Used: 111-117
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #8: A -> I, Status: SUCCESS ---
+   - Bandwidth: 379 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> E -> G -> H -> I | Slots Used: 29-44
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: A -> C -> F -> J | Slots Used: 390-405
+       Modulation: QPSK, Slots Needed (for each link): 16
+     * Segment 2: J -> I | Slots Used: 154-161
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+
+--- Req #9: A -> J, Status: SUCCESS ---
+   - Bandwidth: 144 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> E -> G -> J | Slots Used: 46-51
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: A -> C -> F -> J | Slots Used: 424-429
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #10: A -> K, Status: SUCCESS ---
+   - Bandwidth: 316 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> K | Slots Used: 53-65
+       Modulation: QPSK, Slots Needed (for each link): 13
+   - Backup Path Details:
+     * Segment 1: A -> C -> F | Slots Used: 217-229
+       Modulation: QPSK, Slots Needed (for each link): 13
+     * Segment 2: F -> N -> M -> K | Slots Used: 304-316
+       Modulation: QPSK, Slots Needed (for each link): 13
+
+--- Req #11: A -> L, Status: SUCCESS ---
+   - Bandwidth: 116 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> K | Slots Used: 67-71
+       Modulation: QPSK, Slots Needed (for each link): 5
+     * Segment 2: K -> L | Slots Used: 0-2
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: A -> B | Slots Used: 30-33
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+     * Segment 2: B -> H -> I -> L | Slots Used: 784-788
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #12: A -> M, Status: SUCCESS ---
+   - Bandwidth: 115 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> D -> E -> G -> H -> I | Slots Used: 73-77
+       Modulation: QPSK, Slots Needed (for each link): 5
+     * Segment 2: I -> M | Slots Used: 0-1
+       Modulation: 32-QAM, Slots Needed (for each link): 2
+   - Backup Path Details:
+     * Segment 1: A -> C -> F | Slots Used: 465-469
+       Modulation: QPSK, Slots Needed (for each link): 5
+     * Segment 2: F -> N -> M | Slots Used: 259-263
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #13: A -> N, Status: SUCCESS ---
+   - Bandwidth: 147 Gbps
+   - Primary Path Details:
+     * Segment 1: A -> C | Slots Used: 14-16
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: C -> F -> N | Slots Used: 14-19
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: A -> D | Slots Used: 292-294
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: D -> E -> G -> H -> I -> M -> N | Slots Used: 563-568
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #14: B -> A, Status: SUCCESS ---
+   - Bandwidth: 211 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> A | Slots Used: 6-11
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: B -> C -> A | Slots Used: 78-83
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+
+--- Req #15: B -> C, Status: SUCCESS ---
+   - Bandwidth: 219 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> C | Slots Used: 0-4
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: B -> A -> C | Slots Used: 23-28
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+
+--- Req #16: B -> D, Status: SUCCESS ---
+   - Bandwidth: 358 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> A -> D | Slots Used: 79-93
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: B -> C -> F -> E | Slots Used: 242-256
+       Modulation: QPSK, Slots Needed (for each link): 15
+     * Segment 2: E -> D | Slots Used: 307-314
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+
+--- Req #17: B -> E, Status: SUCCESS ---
+   - Bandwidth: 113 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> A -> D -> E | Slots Used: 95-99
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: B -> C -> F -> E | Slots Used: 357-361
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #18: B -> F, Status: SUCCESS ---
+   - Bandwidth: 387 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> C -> F | Slots Used: 21-36
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: B -> A -> D -> E -> F | Slots Used: 417-432
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #19: B -> G, Status: SUCCESS ---
+   - Bandwidth: 201 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> A -> D -> E -> G | Slots Used: 101-109
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: B -> H -> G | Slots Used: 439-447
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #20: B -> H, Status: SUCCESS ---
+   - Bandwidth: 379 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> H | Slots Used: 0-15
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: B -> A -> D -> E -> G | Slots Used: 503-518
+       Modulation: QPSK, Slots Needed (for each link): 16
+     * Segment 2: G -> H | Slots Used: 86-93
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+
+--- Req #21: B -> I, Status: SUCCESS ---
+   - Bandwidth: 314 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> H -> I | Slots Used: 46-58
+       Modulation: QPSK, Slots Needed (for each link): 13
+   - Backup Path Details:
+     * Segment 1: B -> C -> F -> J | Slots Used: 196-208
+       Modulation: QPSK, Slots Needed (for each link): 13
+     * Segment 2: J -> I | Slots Used: 121-127
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+
+--- Req #22: B -> J, Status: SUCCESS ---
+   - Bandwidth: 212 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> C -> F -> J | Slots Used: 38-46
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: B -> H -> I | Slots Used: 790-798
+       Modulation: QPSK, Slots Needed (for each link): 9
+     * Segment 2: I -> J | Slots Used: 163-167
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #23: B -> K, Status: SUCCESS ---
+   - Bandwidth: 329 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> A | Slots Used: 13-21
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+     * Segment 2: A -> D -> K | Slots Used: 111-124
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: B -> H -> I -> L | Slots Used: 600-613
+       Modulation: QPSK, Slots Needed (for each link): 14
+     * Segment 2: L -> K | Slots Used: 65-71
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+
+--- Req #24: B -> L, Status: SUCCESS ---
+   - Bandwidth: 401 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> H -> I -> L | Slots Used: 79-95
+       Modulation: QPSK, Slots Needed (for each link): 17
+   - Backup Path Details:
+     * Segment 1: B -> C -> F | Slots Used: 333-349
+       Modulation: QPSK, Slots Needed (for each link): 17
+     * Segment 2: F -> N -> L | Slots Used: 135-151
+       Modulation: QPSK, Slots Needed (for each link): 17
+
+--- Req #25: B -> M, Status: SUCCESS ---
+   - Bandwidth: 242 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> H -> I -> M | Slots Used: 17-26
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: B -> C -> F | Slots Used: 231-240
+       Modulation: QPSK, Slots Needed (for each link): 10
+     * Segment 2: F -> N -> M | Slots Used: 219-228
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #26: B -> N, Status: SUCCESS ---
+   - Bandwidth: 103 Gbps
+   - Primary Path Details:
+     * Segment 1: B -> H -> I -> M | Slots Used: 60-64
+       Modulation: QPSK, Slots Needed (for each link): 5
+     * Segment 2: M -> N | Slots Used: 0-1
+       Modulation: 32-QAM, Slots Needed (for each link): 2
+   - Backup Path Details:
+     * Segment 1: B -> C | Slots Used: 58-60
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: C -> F -> N | Slots Used: 210-214
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #27: C -> A, Status: SUCCESS ---
+   - Bandwidth: 181 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> A | Slots Used: 18-21
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: C -> B -> A | Slots Used: 168-172
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+
+--- Req #28: C -> B, Status: SUCCESS ---
+   - Bandwidth: 316 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> B | Slots Used: 6-12
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: C -> A -> B | Slots Used: 58-66
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+
+--- Req #29: C -> D, Status: SUCCESS ---
+   - Bandwidth: 274 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> A -> D | Slots Used: 126-133
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: C -> F -> E -> D | Slots Used: 444-454
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #30: C -> E, Status: SUCCESS ---
+   - Bandwidth: 242 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> A -> D -> E | Slots Used: 135-144
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: C -> F -> E | Slots Used: 473-482
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #31: C -> F, Status: SUCCESS ---
+   - Bandwidth: 179 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> F | Slots Used: 48-52
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: C -> A -> D -> E -> F | Slots Used: 381-388
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #32: C -> G, Status: SUCCESS ---
+   - Bandwidth: 210 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> A -> D -> E -> G | Slots Used: 146-154
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: C -> B -> H | Slots Used: 315-323
+       Modulation: QPSK, Slots Needed (for each link): 9
+     * Segment 2: H -> G | Slots Used: 222-226
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #33: C -> H, Status: SUCCESS ---
+   - Bandwidth: 272 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> B -> H | Slots Used: 66-76
+       Modulation: QPSK, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: C -> A -> D -> E -> G -> H | Slots Used: 600-610
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #34: C -> I, Status: SUCCESS ---
+   - Bandwidth: 152 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> F -> J | Slots Used: 54-60
+       Modulation: QPSK, Slots Needed (for each link): 7
+     * Segment 2: J -> I | Slots Used: 0-3
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: C -> B | Slots Used: 14-17
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+     * Segment 2: B -> H -> I | Slots Used: 615-621
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #35: C -> J, Status: SUCCESS ---
+   - Bandwidth: 147 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> F -> J | Slots Used: 62-67
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: C -> A | Slots Used: 30-32
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: A -> D -> E -> G -> J | Slots Used: 403-408
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #36: C -> K, Status: SUCCESS ---
+   - Bandwidth: 294 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> A -> D -> K | Slots Used: 156-167
+       Modulation: QPSK, Slots Needed (for each link): 12
+   - Backup Path Details:
+     * Segment 1: C -> F -> N | Slots Used: 407-418
+       Modulation: QPSK, Slots Needed (for each link): 12
+     * Segment 2: N -> M -> K | Slots Used: 382-389
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+
+--- Req #37: C -> L, Status: SUCCESS ---
+   - Bandwidth: 149 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> F -> N | Slots Used: 69-74
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: N -> L | Slots Used: 0-2
+       Modulation: 32-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: C -> B | Slots Used: 85-87
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: B -> H -> I -> L | Slots Used: 886-891
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #38: C -> M, Status: SUCCESS ---
+   - Bandwidth: 283 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> F -> N | Slots Used: 76-87
+       Modulation: QPSK, Slots Needed (for each link): 12
+     * Segment 2: N -> M | Slots Used: 3-7
+       Modulation: 32-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: C -> B -> H | Slots Used: 174-185
+       Modulation: QPSK, Slots Needed (for each link): 12
+     * Segment 2: H -> I -> M | Slots Used: 805-812
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+
+--- Req #39: C -> N, Status: SUCCESS ---
+   - Bandwidth: 276 Gbps
+   - Primary Path Details:
+     * Segment 1: C -> F -> N | Slots Used: 89-100
+       Modulation: QPSK, Slots Needed (for each link): 12
+   - Backup Path Details:
+     * Segment 1: C -> B -> H | Slots Used: 155-166
+       Modulation: QPSK, Slots Needed (for each link): 12
+     * Segment 2: H -> I -> M -> N | Slots Used: 632-639
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+
+--- Req #40: D -> A, Status: SUCCESS ---
+   - Bandwidth: 235 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> A | Slots Used: 169-173
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: D -> E -> F -> C | Slots Used: 546-555
+       Modulation: QPSK, Slots Needed (for each link): 10
+     * Segment 2: C -> A | Slots Used: 34-38
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #41: D -> B, Status: SUCCESS ---
+   - Bandwidth: 122 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> A -> B | Slots Used: 175-179
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: D -> E | Slots Used: 90-92
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: E -> F -> C -> B | Slots Used: 351-355
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #42: D -> C, Status: SUCCESS ---
+   - Bandwidth: 335 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> A -> C | Slots Used: 181-189
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: D -> E -> F -> C | Slots Used: 665-678
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #43: D -> E, Status: SUCCESS ---
+   - Bandwidth: 374 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E | Slots Used: 53-60
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: D -> A | Slots Used: 283-290
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+     * Segment 2: A -> C -> F -> E | Slots Used: 279-293
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #44: D -> F, Status: SUCCESS ---
+   - Bandwidth: 163 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> F | Slots Used: 0-4
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: D -> A -> C -> F | Slots Used: 307-313
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #45: D -> G, Status: SUCCESS ---
+   - Bandwidth: 293 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> G | Slots Used: 62-69
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: D -> K -> L | Slots Used: 85-96
+       Modulation: QPSK, Slots Needed (for each link): 12
+     * Segment 2: L -> I -> H -> G | Slots Used: 623-630
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+
+--- Req #46: D -> H, Status: SUCCESS ---
+   - Bandwidth: 140 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> G -> H | Slots Used: 79-84
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: D -> K | Slots Used: 98-103
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: K -> L -> I -> H | Slots Used: 800-803
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+
+--- Req #47: D -> I, Status: SUCCESS ---
+   - Bandwidth: 382 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> G -> H -> I | Slots Used: 111-126
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: D -> K -> L -> I | Slots Used: 436-451
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #48: D -> J, Status: SUCCESS ---
+   - Bandwidth: 250 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> G -> J | Slots Used: 156-165
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: D -> K -> L -> I | Slots Used: 239-248
+       Modulation: QPSK, Slots Needed (for each link): 10
+     * Segment 2: I -> J | Slots Used: 196-200
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #49: D -> K, Status: SUCCESS ---
+   - Bandwidth: 285 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> K | Slots Used: 0-11
+       Modulation: QPSK, Slots Needed (for each link): 12
+   - Backup Path Details:
+     * Segment 1: D -> E -> G | Slots Used: 520-527
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+     * Segment 2: G -> H -> I -> L -> K | Slots Used: 570-581
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #50: D -> L, Status: SUCCESS ---
+   - Bandwidth: 395 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> K -> L | Slots Used: 13-28
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: D -> E -> G -> H -> I -> L | Slots Used: 750-765
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #51: D -> M, Status: SUCCESS ---
+   - Bandwidth: 198 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> G -> H -> I -> M | Slots Used: 167-174
+       Modulation: QPSK, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: D -> K -> M | Slots Used: 134-141
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #52: D -> N, Status: SUCCESS ---
+   - Bandwidth: 135 Gbps
+   - Primary Path Details:
+     * Segment 1: D -> E -> G -> H -> I -> M -> N | Slots Used: 128-133
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: D -> K -> L -> N | Slots Used: 300-305
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #53: E -> A, Status: SUCCESS ---
+   - Bandwidth: 123 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> D -> A | Slots Used: 191-194
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: E -> F -> C -> A | Slots Used: 372-376
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #54: E -> B, Status: SUCCESS ---
+   - Bandwidth: 216 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> D -> A -> B | Slots Used: 196-204
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: E -> F -> C -> B | Slots Used: 507-515
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #55: E -> C, Status: SUCCESS ---
+   - Bandwidth: 248 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> D -> A -> C | Slots Used: 206-215
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: E -> F -> C | Slots Used: 517-526
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #56: E -> D, Status: SUCCESS ---
+   - Bandwidth: 140 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> D | Slots Used: 86-88
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: E -> F -> C -> A | Slots Used: 316-321
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: A -> D | Slots Used: 296-298
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+
+--- Req #57: E -> F, Status: SUCCESS ---
+   - Bandwidth: 219 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> F | Slots Used: 6-11
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: E -> G -> J -> F | Slots Used: 578-586
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #58: E -> G, Status: SUCCESS ---
+   - Bandwidth: 151 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G | Slots Used: 0-3
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: E -> F -> J -> G | Slots Used: 101-107
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #59: E -> H, Status: SUCCESS ---
+   - Bandwidth: 294 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G -> H | Slots Used: 53-60
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: E -> F -> J -> I -> H | Slots Used: 652-663
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #60: E -> I, Status: SUCCESS ---
+   - Bandwidth: 242 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G -> H -> I | Slots Used: 135-144
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: E -> F -> J -> I | Slots Used: 169-178
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #61: E -> J, Status: SUCCESS ---
+   - Bandwidth: 332 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G -> J | Slots Used: 86-99
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: E -> F -> J | Slots Used: 85-98
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #62: E -> K, Status: SUCCESS ---
+   - Bandwidth: 286 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> D -> K | Slots Used: 176-187
+       Modulation: QPSK, Slots Needed (for each link): 12
+   - Backup Path Details:
+     * Segment 1: E -> G -> H -> I -> L -> K | Slots Used: 831-842
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #63: E -> L, Status: SUCCESS ---
+   - Bandwidth: 183 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G -> H -> I -> L | Slots Used: 176-183
+       Modulation: QPSK, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: E -> F -> N -> L | Slots Used: 196-203
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #64: E -> M, Status: SUCCESS ---
+   - Bandwidth: 289 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G -> H -> I -> M | Slots Used: 185-196
+       Modulation: QPSK, Slots Needed (for each link): 12
+   - Backup Path Details:
+     * Segment 1: E -> F -> N -> M | Slots Used: 617-628
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #65: E -> N, Status: SUCCESS ---
+   - Bandwidth: 281 Gbps
+   - Primary Path Details:
+     * Segment 1: E -> G -> H -> I -> M -> N | Slots Used: 198-209
+       Modulation: QPSK, Slots Needed (for each link): 12
+   - Backup Path Details:
+     * Segment 1: E -> F -> N | Slots Used: 153-164
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #66: F -> A, Status: SUCCESS ---
+   - Bandwidth: 207 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> C -> A | Slots Used: 102-110
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: F -> E -> D -> A | Slots Used: 578-586
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #67: F -> B, Status: SUCCESS ---
+   - Bandwidth: 236 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> C -> B | Slots Used: 112-121
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: F -> E -> D -> A -> B | Slots Used: 489-498
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #68: F -> C, Status: SUCCESS ---
+   - Bandwidth: 136 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> C | Slots Used: 123-126
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: F -> E -> D -> A -> C | Slots Used: 539-544
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #69: F -> D, Status: SUCCESS ---
+   - Bandwidth: 187 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> E -> D | Slots Used: 217-221
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: F -> C -> A -> D | Slots Used: 456-463
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #70: F -> E, Status: SUCCESS ---
+   - Bandwidth: 373 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> E | Slots Used: 13-22
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: F -> J -> G -> E | Slots Used: 433-447
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #71: F -> G, Status: SUCCESS ---
+   - Bandwidth: 225 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> E -> G | Slots Used: 223-228
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: F -> J -> G | Slots Used: 129-137
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #72: F -> H, Status: SUCCESS ---
+   - Bandwidth: 183 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> E -> G -> H | Slots Used: 230-237
+       Modulation: QPSK, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: F -> J -> I -> H | Slots Used: 844-851
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #73: F -> I, Status: SUCCESS ---
+   - Bandwidth: 336 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> J -> I | Slots Used: 5-18
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: F -> N -> M -> I | Slots Used: 332-345
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #74: F -> J, Status: SUCCESS ---
+   - Bandwidth: 294 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> J | Slots Used: 20-27
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: F -> E -> G -> J | Slots Used: 460-471
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #75: F -> K, Status: SUCCESS ---
+   - Bandwidth: 238 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> N -> M -> K | Slots Used: 21-30
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: F -> J -> I -> L -> K | Slots Used: 185-194
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #76: F -> L, Status: SUCCESS ---
+   - Bandwidth: 385 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> N -> L | Slots Used: 32-47
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: F -> J -> I -> L | Slots Used: 407-422
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #77: F -> M, Status: SUCCESS ---
+   - Bandwidth: 212 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> N -> M | Slots Used: 49-57
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: F -> J -> I -> M | Slots Used: 304-312
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #78: F -> N, Status: SUCCESS ---
+   - Bandwidth: 266 Gbps
+   - Primary Path Details:
+     * Segment 1: F -> N | Slots Used: 0-7
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: F -> J -> I -> M -> N | Slots Used: 347-357
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #79: G -> A, Status: SUCCESS ---
+   - Bandwidth: 128 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> E -> D -> A | Slots Used: 239-244
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: G -> H -> B | Slots Used: 517-522
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: B -> A | Slots Used: 44-47
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+
+--- Req #80: G -> B, Status: SUCCESS ---
+   - Bandwidth: 217 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H -> B | Slots Used: 97-105
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: G -> E -> D -> A -> B | Slots Used: 529-537
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #81: G -> C, Status: SUCCESS ---
+   - Bandwidth: 116 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> E -> D -> A -> C | Slots Used: 246-250
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: G -> H -> B | Slots Used: 524-528
+       Modulation: QPSK, Slots Needed (for each link): 5
+     * Segment 2: B -> C | Slots Used: 89-91
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+
+--- Req #82: G -> D, Status: SUCCESS ---
+   - Bandwidth: 261 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> E -> D | Slots Used: 252-258
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: G -> H -> I -> L | Slots Used: 675-681
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+     * Segment 2: L -> K -> D | Slots Used: 196-206
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #83: G -> E, Status: SUCCESS ---
+   - Bandwidth: 305 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> E | Slots Used: 5-11
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: G -> J -> F -> E | Slots Used: 109-121
+       Modulation: QPSK, Slots Needed (for each link): 13
+
+--- Req #84: G -> F, Status: SUCCESS ---
+   - Bandwidth: 237 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> E -> F | Slots Used: 260-266
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: G -> J -> F | Slots Used: 314-323
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #85: G -> H, Status: SUCCESS ---
+   - Bandwidth: 133 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H | Slots Used: 0-2
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: G -> J -> I -> H | Slots Used: 528-533
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #86: G -> I, Status: SUCCESS ---
+   - Bandwidth: 208 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H -> I | Slots Used: 4-9
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: G -> J -> I | Slots Used: 234-242
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #87: G -> J, Status: SUCCESS ---
+   - Bandwidth: 390 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> J | Slots Used: 0-10
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: G -> H -> I -> J | Slots Used: 583-598
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #88: G -> K, Status: SUCCESS ---
+   - Bandwidth: 261 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H -> I -> L -> K | Slots Used: 146-156
+       Modulation: QPSK, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: G -> J -> I -> M -> K | Slots Used: 222-232
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #89: G -> L, Status: SUCCESS ---
+   - Bandwidth: 208 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H -> I -> L | Slots Used: 66-71
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: G -> J -> I -> M -> N -> L | Slots Used: 740-748
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #90: G -> M, Status: SUCCESS ---
+   - Bandwidth: 355 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H -> I -> M | Slots Used: 211-220
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: G -> J -> I -> L -> N -> M | Slots Used: 265-279
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #91: G -> N, Status: SUCCESS ---
+   - Bandwidth: 302 Gbps
+   - Primary Path Details:
+     * Segment 1: G -> H -> I -> M -> N | Slots Used: 239-251
+       Modulation: QPSK, Slots Needed (for each link): 13
+   - Backup Path Details:
+     * Segment 1: G -> J -> I -> L -> N | Slots Used: 332-344
+       Modulation: QPSK, Slots Needed (for each link): 13
+
+--- Req #92: H -> A, Status: SUCCESS ---
+   - Bandwidth: 334 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> G -> E -> D -> A | Slots Used: 268-281
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: H -> B -> A | Slots Used: 238-251
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #93: H -> B, Status: SUCCESS ---
+   - Bandwidth: 173 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> B | Slots Used: 28-34
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: H -> G -> E -> D | Slots Used: 612-618
+       Modulation: QPSK, Slots Needed (for each link): 7
+     * Segment 2: D -> A -> B | Slots Used: 372-378
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #94: H -> C, Status: SUCCESS ---
+   - Bandwidth: 235 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> B -> C | Slots Used: 123-132
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: H -> G -> E -> D -> A -> C | Slots Used: 632-641
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #95: H -> D, Status: SUCCESS ---
+   - Bandwidth: 171 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> G -> E -> D | Slots Used: 283-289
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: H -> I -> L -> K | Slots Used: 862-866
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+     * Segment 2: K -> D | Slots Used: 126-132
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #96: H -> E, Status: SUCCESS ---
+   - Bandwidth: 226 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> G -> E | Slots Used: 291-297
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: H -> I -> J -> F -> E | Slots Used: 641-650
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #97: H -> F, Status: SUCCESS ---
+   - Bandwidth: 387 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> G -> E -> F | Slots Used: 299-314
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: H -> I -> J -> F | Slots Used: 921-936
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #98: H -> G, Status: SUCCESS ---
+   - Bandwidth: 375 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> G | Slots Used: 11-18
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: H -> I -> J -> G | Slots Used: 683-697
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #99: H -> I, Status: SUCCESS ---
+   - Bandwidth: 234 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> I | Slots Used: 11-15
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: H -> G -> J -> I | Slots Used: 253-262
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #100: H -> J, Status: SUCCESS ---
+   - Bandwidth: 399 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> I -> J | Slots Used: 97-107
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: H -> G -> J | Slots Used: 643-653
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+
+--- Req #101: H -> K, Status: SUCCESS ---
+   - Bandwidth: 319 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> I -> L -> K | Slots Used: 222-230
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: H -> G -> J -> I -> M | Slots Used: 784-796
+       Modulation: QPSK, Slots Needed (for each link): 13
+     * Segment 2: M -> K | Slots Used: 51-57
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+
+--- Req #102: H -> L, Status: SUCCESS ---
+   - Bandwidth: 398 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> I -> L | Slots Used: 253-263
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: H -> G | Slots Used: 158-165
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+     * Segment 2: G -> J -> I -> M -> N -> L | Slots Used: 600-615
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #103: H -> M, Status: SUCCESS ---
+   - Bandwidth: 304 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> I -> M | Slots Used: 265-273
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: H -> G -> J -> I -> L -> N | Slots Used: 805-817
+       Modulation: QPSK, Slots Needed (for each link): 13
+     * Segment 2: N -> M | Slots Used: 59-63
+       Modulation: 32-QAM, Slots Needed (for each link): 5
+
+--- Req #104: H -> N, Status: SUCCESS ---
+   - Bandwidth: 285 Gbps
+   - Primary Path Details:
+     * Segment 1: H -> I -> M -> N | Slots Used: 158-165
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: H -> G -> J -> I -> L -> N | Slots Used: 708-719
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #105: I -> A, Status: SUCCESS ---
+   - Bandwidth: 212 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> H -> G -> E -> D -> A | Slots Used: 316-324
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: I -> J | Slots Used: 216-220
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+     * Segment 2: J -> F -> C -> A | Slots Used: 588-596
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #106: I -> B, Status: SUCCESS ---
+   - Bandwidth: 170 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> H -> B | Slots Used: 275-281
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: I -> J | Slots Used: 180-183
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+     * Segment 2: J -> F -> C -> B | Slots Used: 258-264
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #107: I -> C, Status: SUCCESS ---
+   - Bandwidth: 360 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> J -> F | Slots Used: 69-83
+       Modulation: QPSK, Slots Needed (for each link): 15
+     * Segment 2: F -> C | Slots Used: 128-137
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: I -> H | Slots Used: 853-860
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+     * Segment 2: H -> B -> C | Slots Used: 210-224
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #108: I -> D, Status: SUCCESS ---
+   - Bandwidth: 352 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> H -> G -> E -> D | Slots Used: 326-340
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: I -> L -> K -> D | Slots Used: 465-479
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #109: I -> E, Status: SUCCESS ---
+   - Bandwidth: 146 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> H -> G -> E | Slots Used: 342-347
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: I -> J -> F -> E | Slots Used: 500-505
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #110: I -> F, Status: SUCCESS ---
+   - Bandwidth: 124 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> J -> F | Slots Used: 29-33
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: I -> M -> N -> F | Slots Used: 253-257
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #111: I -> G, Status: SUCCESS ---
+   - Bandwidth: 156 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> H -> G | Slots Used: 349-353
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: I -> J -> G | Slots Used: 202-208
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #112: I -> H, Status: SUCCESS ---
+   - Bandwidth: 178 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> H | Slots Used: 232-235
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: I -> J -> G -> H | Slots Used: 868-875
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #113: I -> J, Status: SUCCESS ---
+   - Bandwidth: 181 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> J | Slots Used: 20-23
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: I -> H -> G -> J | Slots Used: 699-706
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #114: I -> K, Status: SUCCESS ---
+   - Bandwidth: 316 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> L -> K | Slots Used: 30-38
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: I -> M -> K | Slots Used: 36-44
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+
+--- Req #115: I -> L, Status: SUCCESS ---
+   - Bandwidth: 132 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> L | Slots Used: 0-2
+       Modulation: 32-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: I -> M -> N -> L | Slots Used: 153-156
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+
+--- Req #116: I -> M, Status: SUCCESS ---
+   - Bandwidth: 297 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> M | Slots Used: 3-7
+       Modulation: 32-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: I -> L -> N -> M | Slots Used: 167-174
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+
+--- Req #117: I -> N, Status: SUCCESS ---
+   - Bandwidth: 295 Gbps
+   - Primary Path Details:
+     * Segment 1: I -> M -> N | Slots Used: 9-14
+       Modulation: 16-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: I -> L -> N | Slots Used: 158-163
+       Modulation: 16-QAM, Slots Needed (for each link): 6
+
+--- Req #118: J -> A, Status: SUCCESS ---
+   - Bandwidth: 339 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> G -> E -> D -> A | Slots Used: 349-362
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: J -> F -> C -> A | Slots Used: 557-570
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #119: J -> B, Status: SUCCESS ---
+   - Bandwidth: 370 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> F -> C -> B | Slots Used: 139-153
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: J -> I | Slots Used: 145-152
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+     * Segment 2: I -> H -> B | Slots Used: 708-722
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #120: J -> C, Status: SUCCESS ---
+   - Bandwidth: 228 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> F -> C | Slots Used: 155-164
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: J -> G -> E -> D | Slots Used: 588-597
+       Modulation: QPSK, Slots Needed (for each link): 10
+     * Segment 2: D -> A -> C | Slots Used: 364-370
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+
+--- Req #121: J -> D, Status: SUCCESS ---
+   - Bandwidth: 383 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> G -> E -> D | Slots Used: 364-379
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: J -> I -> L | Slots Used: 453-463
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+     * Segment 2: L -> K -> D | Slots Used: 263-278
+       Modulation: QPSK, Slots Needed (for each link): 16
+
+--- Req #122: J -> E, Status: SUCCESS ---
+   - Bandwidth: 105 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> G -> E | Slots Used: 211-215
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: J -> F -> E | Slots Used: 123-127
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #123: J -> F, Status: SUCCESS ---
+   - Bandwidth: 158 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> F | Slots Used: 48-52
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: J -> G -> E -> F | Slots Used: 570-576
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #124: J -> G, Status: SUCCESS ---
+   - Bandwidth: 374 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> G | Slots Used: 12-21
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: J -> I -> H -> G | Slots Used: 724-738
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #125: J -> H, Status: SUCCESS ---
+   - Bandwidth: 236 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> I -> H | Slots Used: 283-289
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: J -> G -> H | Slots Used: 655-661
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+
+--- Req #126: J -> I, Status: SUCCESS ---
+   - Bandwidth: 274 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> I | Slots Used: 35-40
+       Modulation: 16-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: J -> G -> H -> I | Slots Used: 535-545
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #127: J -> K, Status: SUCCESS ---
+   - Bandwidth: 157 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> I -> L -> K | Slots Used: 42-48
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: J -> G -> H -> I -> M | Slots Used: 767-773
+       Modulation: QPSK, Slots Needed (for each link): 7
+     * Segment 2: M -> K | Slots Used: 46-49
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+
+--- Req #128: J -> L, Status: SUCCESS ---
+   - Bandwidth: 250 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> I -> L | Slots Used: 50-56
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: J -> F -> N -> L | Slots Used: 239-248
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #129: J -> M, Status: SUCCESS ---
+   - Bandwidth: 322 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> I -> M | Slots Used: 85-93
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: J -> F -> N -> M | Slots Used: 359-371
+       Modulation: QPSK, Slots Needed (for each link): 13
+
+--- Req #130: J -> N, Status: SUCCESS ---
+   - Bandwidth: 180 Gbps
+   - Primary Path Details:
+     * Segment 1: J -> I -> M -> N | Slots Used: 109-113
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: J -> F -> N | Slots Used: 266-273
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #131: K -> A, Status: SUCCESS ---
+   - Bandwidth: 332 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> D -> A | Slots Used: 217-230
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: K -> L -> I -> H | Slots Used: 740-748
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+     * Segment 2: H -> B -> A | Slots Used: 134-147
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #132: K -> B, Status: SUCCESS ---
+   - Bandwidth: 101 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> D | Slots Used: 30-34
+       Modulation: QPSK, Slots Needed (for each link): 5
+     * Segment 2: D -> A -> B | Slots Used: 232-236
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: K -> L | Slots Used: 98-100
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+     * Segment 2: L -> I -> H -> B | Slots Used: 868-872
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #133: K -> C, Status: SUCCESS ---
+   - Bandwidth: 234 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> D -> A -> C | Slots Used: 252-261
+       Modulation: QPSK, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: K -> L -> N | Slots Used: 307-313
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+     * Segment 2: N -> F -> C | Slots Used: 431-440
+       Modulation: QPSK, Slots Needed (for each link): 10
+
+--- Req #134: K -> D, Status: SUCCESS ---
+   - Bandwidth: 356 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> D | Slots Used: 36-50
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: K -> L -> I -> H -> G -> E | Slots Used: 547-561
+       Modulation: QPSK, Slots Needed (for each link): 15
+     * Segment 2: E -> D | Slots Used: 229-236
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+
+--- Req #135: K -> E, Status: SUCCESS ---
+   - Bandwidth: 191 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> D -> E | Slots Used: 291-298
+       Modulation: QPSK, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: K -> L -> I -> H -> G -> E | Slots Used: 775-782
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #136: K -> F, Status: SUCCESS ---
+   - Bandwidth: 359 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L -> N -> F | Slots Used: 102-116
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: K -> M -> I -> J -> F | Slots Used: 540-554
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #137: K -> G, Status: SUCCESS ---
+   - Bandwidth: 154 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L -> I -> H -> G | Slots Used: 355-361
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: K -> M -> I -> J -> G | Slots Used: 675-681
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #138: K -> H, Status: SUCCESS ---
+   - Bandwidth: 252 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L -> I -> H | Slots Used: 291-297
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: K -> M -> I -> J -> G | Slots Used: 617-627
+       Modulation: QPSK, Slots Needed (for each link): 11
+     * Segment 2: G -> H | Slots Used: 369-374
+       Modulation: 16-QAM, Slots Needed (for each link): 6
+
+--- Req #139: K -> I, Status: SUCCESS ---
+   - Bandwidth: 359 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L -> I | Slots Used: 118-127
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: K -> M -> I | Slots Used: 359-368
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+
+--- Req #140: K -> J, Status: SUCCESS ---
+   - Bandwidth: 201 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L -> I -> J | Slots Used: 129-137
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: K -> M | Slots Used: 13-17
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+     * Segment 2: M -> I -> H -> G -> J | Slots Used: 665-673
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #141: K -> L, Status: SUCCESS ---
+   - Bandwidth: 178 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L | Slots Used: 4-7
+       Modulation: 16-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: K -> M -> N -> L | Slots Used: 185-189
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+
+--- Req #142: K -> M, Status: SUCCESS ---
+   - Bandwidth: 291 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> M | Slots Used: 0-5
+       Modulation: 16-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: K -> L -> N -> M | Slots Used: 176-183
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+
+--- Req #143: K -> N, Status: SUCCESS ---
+   - Bandwidth: 182 Gbps
+   - Primary Path Details:
+     * Segment 1: K -> L -> N | Slots Used: 50-54
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: K -> M -> N | Slots Used: 103-107
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+
+--- Req #144: L -> A, Status: SUCCESS ---
+   - Bandwidth: 376 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> K | Slots Used: 56-63
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+     * Segment 2: K -> D -> A | Slots Used: 326-341
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: L -> I -> H -> B | Slots Used: 893-908
+       Modulation: QPSK, Slots Needed (for each link): 16
+     * Segment 2: B -> A | Slots Used: 119-129
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+
+--- Req #145: L -> B, Status: SUCCESS ---
+   - Bandwidth: 371 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> I -> H -> B | Slots Used: 299-313
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: L -> N -> F | Slots Used: 459-473
+       Modulation: QPSK, Slots Needed (for each link): 15
+     * Segment 2: F -> C -> B | Slots Used: 484-498
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #146: L -> C, Status: SUCCESS ---
+   - Bandwidth: 100 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> N | Slots Used: 4-5
+       Modulation: 32-QAM, Slots Needed (for each link): 2
+     * Segment 2: N -> F -> C | Slots Used: 166-169
+       Modulation: QPSK, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: L -> I -> H -> B | Slots Used: 874-877
+       Modulation: QPSK, Slots Needed (for each link): 4
+     * Segment 2: B -> C | Slots Used: 62-63
+       Modulation: 16-QAM, Slots Needed (for each link): 2
+
+--- Req #147: L -> D, Status: SUCCESS ---
+   - Bandwidth: 265 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> K -> D | Slots Used: 73-83
+       Modulation: QPSK, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: L -> I -> H -> G -> E -> D | Slots Used: 819-829
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #148: L -> E, Status: SUCCESS ---
+   - Bandwidth: 350 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> I -> H -> G -> E | Slots Used: 381-394
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: L -> N -> F -> E | Slots Used: 680-693
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #149: L -> F, Status: SUCCESS ---
+   - Bandwidth: 109 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> N -> F | Slots Used: 59-63
+       Modulation: QPSK, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: L -> I -> J -> F | Slots Used: 210-214
+       Modulation: QPSK, Slots Needed (for each link): 5
+
+--- Req #150: L -> G, Status: SUCCESS ---
+   - Bandwidth: 157 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> I -> H -> G | Slots Used: 363-367
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: L -> N -> M -> I -> J -> G | Slots Used: 750-756
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #151: L -> H, Status: SUCCESS ---
+   - Bandwidth: 285 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> I -> H | Slots Used: 369-376
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: L -> N -> M -> I -> J -> G | Slots Used: 819-830
+       Modulation: QPSK, Slots Needed (for each link): 12
+     * Segment 2: G -> H | Slots Used: 403-408
+       Modulation: 16-QAM, Slots Needed (for each link): 6
+
+--- Req #152: L -> I, Status: SUCCESS ---
+   - Bandwidth: 257 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> I | Slots Used: 4-8
+       Modulation: 32-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: L -> N -> M -> I | Slots Used: 281-287
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+
+--- Req #153: L -> J, Status: SUCCESS ---
+   - Bandwidth: 222 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> I -> J | Slots Used: 58-63
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: L -> N -> F -> J | Slots Used: 449-457
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #154: L -> K, Status: SUCCESS ---
+   - Bandwidth: 129 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> K | Slots Used: 9-11
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: L -> N -> M -> K | Slots Used: 88-91
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+
+--- Req #155: L -> M, Status: SUCCESS ---
+   - Bandwidth: 223 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> N -> M | Slots Used: 65-69
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: L -> I -> M | Slots Used: 73-77
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #156: L -> N, Status: SUCCESS ---
+   - Bandwidth: 390 Gbps
+   - Primary Path Details:
+     * Segment 1: L -> N | Slots Used: 7-13
+       Modulation: 32-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: L -> I -> M -> N | Slots Used: 528-538
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+
+--- Req #157: M -> A, Status: SUCCESS ---
+   - Bandwidth: 140 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> H -> G -> E -> D | Slots Used: 396-401
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: D -> A | Slots Used: 263-265
+       Modulation: 16-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: M -> N -> F | Slots Used: 442-447
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: F -> C -> A | Slots Used: 500-505
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #158: M -> B, Status: SUCCESS ---
+   - Bandwidth: 143 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> H -> B | Slots Used: 403-408
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: M -> N -> F | Slots Used: 318-323
+       Modulation: QPSK, Slots Needed (for each link): 6
+     * Segment 2: F -> C -> B | Slots Used: 295-300
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #159: M -> C, Status: SUCCESS ---
+   - Bandwidth: 348 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> N | Slots Used: 32-37
+       Modulation: 32-QAM, Slots Needed (for each link): 6
+     * Segment 2: N -> F -> C | Slots Used: 171-184
+       Modulation: QPSK, Slots Needed (for each link): 14
+   - Backup Path Details:
+     * Segment 1: M -> I -> H | Slots Used: 910-919
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+     * Segment 2: H -> B -> C | Slots Used: 363-376
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #160: M -> D, Status: SUCCESS ---
+   - Bandwidth: 135 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> H -> G -> E -> D | Slots Used: 410-415
+       Modulation: QPSK, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: M -> K -> D | Slots Used: 169-174
+       Modulation: QPSK, Slots Needed (for each link): 6
+
+--- Req #161: M -> E, Status: SUCCESS ---
+   - Bandwidth: 372 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> H -> G -> E | Slots Used: 417-431
+       Modulation: QPSK, Slots Needed (for each link): 15
+   - Backup Path Details:
+     * Segment 1: M -> N -> F -> E | Slots Used: 695-709
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #162: M -> F, Status: SUCCESS ---
+   - Bandwidth: 164 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> N -> F | Slots Used: 118-124
+       Modulation: QPSK, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: M -> I -> J -> F | Slots Used: 382-388
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #163: M -> G, Status: SUCCESS ---
+   - Bandwidth: 165 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> H -> G | Slots Used: 433-437
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: M -> N -> L -> I -> J -> G | Slots Used: 910-916
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #164: M -> H, Status: SUCCESS ---
+   - Bandwidth: 343 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> H | Slots Used: 439-448
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: M -> N -> L -> I | Slots Used: 396-405
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+     * Segment 2: I -> J -> G -> H | Slots Used: 853-866
+       Modulation: QPSK, Slots Needed (for each link): 14
+
+--- Req #165: M -> I, Status: SUCCESS ---
+   - Bandwidth: 381 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I | Slots Used: 28-34
+       Modulation: 32-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: M -> N -> L -> I | Slots Used: 424-434
+       Modulation: 8-QAM, Slots Needed (for each link): 11
+
+--- Req #166: M -> J, Status: SUCCESS ---
+   - Bandwidth: 184 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> I -> J | Slots Used: 115-119
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: M -> N -> F -> J | Slots Used: 373-380
+       Modulation: QPSK, Slots Needed (for each link): 8
+
+--- Req #167: M -> K, Status: SUCCESS ---
+   - Bandwidth: 235 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> K | Slots Used: 7-11
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: M -> N -> L -> K | Slots Used: 211-217
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+
+--- Req #168: M -> L, Status: SUCCESS ---
+   - Bandwidth: 370 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> N -> L | Slots Used: 71-78
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: M -> I -> L | Slots Used: 583-590
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+
+--- Req #169: M -> N, Status: SUCCESS ---
+   - Bandwidth: 316 Gbps
+   - Primary Path Details:
+     * Segment 1: M -> N | Slots Used: 39-44
+       Modulation: 32-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: M -> I -> L -> N | Slots Used: 315-323
+       Modulation: 8-QAM, Slots Needed (for each link): 9
+
+--- Req #170: N -> A, Status: SUCCESS ---
+   - Bandwidth: 208 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I -> H -> G -> E | Slots Used: 450-458
+       Modulation: QPSK, Slots Needed (for each link): 9
+     * Segment 2: E -> D -> A | Slots Used: 300-305
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+   - Backup Path Details:
+     * Segment 1: N -> F -> C | Slots Used: 572-580
+       Modulation: QPSK, Slots Needed (for each link): 9
+     * Segment 2: C -> A | Slots Used: 40-44
+       Modulation: 16-QAM, Slots Needed (for each link): 5
+
+--- Req #171: N -> B, Status: SUCCESS ---
+   - Bandwidth: 376 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M | Slots Used: 80-86
+       Modulation: 32-QAM, Slots Needed (for each link): 7
+     * Segment 2: M -> I -> H -> B | Slots Used: 460-475
+       Modulation: QPSK, Slots Needed (for each link): 16
+   - Backup Path Details:
+     * Segment 1: N -> F -> C | Slots Used: 528-543
+       Modulation: QPSK, Slots Needed (for each link): 16
+     * Segment 2: C -> B | Slots Used: 93-100
+       Modulation: 16-QAM, Slots Needed (for each link): 8
+
+--- Req #172: N -> C, Status: SUCCESS ---
+   - Bandwidth: 202 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> F -> C | Slots Used: 186-194
+       Modulation: QPSK, Slots Needed (for each link): 9
+   - Backup Path Details:
+     * Segment 1: N -> M -> I -> H | Slots Used: 879-884
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+     * Segment 2: H -> B -> C | Slots Used: 283-291
+       Modulation: QPSK, Slots Needed (for each link): 9
+
+--- Req #173: N -> D, Status: SUCCESS ---
+   - Bandwidth: 259 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I -> H -> G -> E -> D | Slots Used: 477-487
+       Modulation: QPSK, Slots Needed (for each link): 11
+   - Backup Path Details:
+     * Segment 1: N -> L -> K -> D | Slots Used: 363-373
+       Modulation: QPSK, Slots Needed (for each link): 11
+
+--- Req #174: N -> E, Status: SUCCESS ---
+   - Bandwidth: 304 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I -> H -> G -> E | Slots Used: 489-501
+       Modulation: QPSK, Slots Needed (for each link): 13
+   - Backup Path Details:
+     * Segment 1: N -> F -> E | Slots Used: 390-402
+       Modulation: QPSK, Slots Needed (for each link): 13
+
+--- Req #175: N -> F, Status: SUCCESS ---
+   - Bandwidth: 291 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> F | Slots Used: 126-133
+       Modulation: 8-QAM, Slots Needed (for each link): 8
+   - Backup Path Details:
+     * Segment 1: N -> M -> I -> J -> F | Slots Used: 291-302
+       Modulation: QPSK, Slots Needed (for each link): 12
+
+--- Req #176: N -> G, Status: SUCCESS ---
+   - Bandwidth: 324 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I -> H -> G | Slots Used: 503-515
+       Modulation: QPSK, Slots Needed (for each link): 13
+   - Backup Path Details:
+     * Segment 1: N -> L -> I -> J -> G | Slots Used: 481-493
+       Modulation: QPSK, Slots Needed (for each link): 13
+
+--- Req #177: N -> H, Status: SUCCESS ---
+   - Bandwidth: 364 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I -> H | Slots Used: 517-526
+       Modulation: 8-QAM, Slots Needed (for each link): 10
+   - Backup Path Details:
+     * Segment 1: N -> L -> I -> J -> G -> H | Slots Used: 938-952
+       Modulation: QPSK, Slots Needed (for each link): 15
+
+--- Req #178: N -> I, Status: SUCCESS ---
+   - Bandwidth: 331 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I | Slots Used: 95-101
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: N -> L -> I | Slots Used: 20-26
+       Modulation: 16-QAM, Slots Needed (for each link): 7
+
+--- Req #179: N -> J, Status: SUCCESS ---
+   - Bandwidth: 161 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> I -> J | Slots Used: 139-143
+       Modulation: 8-QAM, Slots Needed (for each link): 5
+   - Backup Path Details:
+     * Segment 1: N -> F -> J | Slots Used: 230-236
+       Modulation: QPSK, Slots Needed (for each link): 7
+
+--- Req #180: N -> K, Status: SUCCESS ---
+   - Bandwidth: 226 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M -> K | Slots Used: 145-151
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+   - Backup Path Details:
+     * Segment 1: N -> L -> K | Slots Used: 250-256
+       Modulation: 8-QAM, Slots Needed (for each link): 7
+
+--- Req #181: N -> L, Status: SUCCESS ---
+   - Bandwidth: 215 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> L | Slots Used: 15-18
+       Modulation: 32-QAM, Slots Needed (for each link): 4
+   - Backup Path Details:
+     * Segment 1: N -> M -> I -> L | Slots Used: 325-330
+       Modulation: 8-QAM, Slots Needed (for each link): 6
+
+--- Req #182: N -> M, Status: SUCCESS ---
+   - Bandwidth: 132 Gbps
+   - Primary Path Details:
+     * Segment 1: N -> M | Slots Used: 16-18
+       Modulation: 32-QAM, Slots Needed (for each link): 3
+   - Backup Path Details:
+     * Segment 1: N -> L -> I -> M | Slots Used: 234-237
+       Modulation: 8-QAM, Slots Needed (for each link): 4
+
+========================= Final Network Statistics =========================
+a) Highest Utilized Slot Index(es): [5, 6, 7, 8, 21, 22] (used on 22 links)
+b) Total Spectrum Utilized Slots: 11092
+c) Request Blocking Probability: 0.00% (0 blocked / 182 total)
+d) Total Guard Bands Used: 1076
+e) Network Fragmentation: 58.19%
+f) Total Number of Regenerations: 78
+g) Regenerator Node Usage:
+   Node 'A': 4 times
+   Node 'B': 7 times
+   Node 'C': 5 times
+   Node 'D': 5 times
+   Node 'E': 5 times
+   Node 'F': 8 times
+   Node 'G': 5 times
+   Node 'H': 8 times
+   Node 'I': 5 times
+   Node 'J': 5 times
+   Node 'K': 4 times
+   Node 'L': 5 times
+   Node 'M': 5 times
+   Node 'N': 7 times
+h) Total Execution Time: 0.3239 seconds
+i) CRSA-RAP Algorithm Usage:
+   - CRSA-RAP found a more cost-aware solution 33 time(s).
+
+[Done] exited with code=0 in 0.556 seconds
+

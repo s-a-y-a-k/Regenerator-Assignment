@@ -1,0 +1,2719 @@
+Python 3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:/Users/sayak/OneDrive/Documents/rsa/nsf_7core_2.py
+The edges are:  [('A', 'B'), ('A', 'C'), ('A', 'D'), ('B', 'K'), ('C', 'D'), ('C', 'F'), ('D', 'E'), ('D', 'K'), ('E', 'F'), ('E', 'G'), ('F', 'J'), ('G', 'H'), ('G', 'J'), ('I', 'K'), ('I', 'L'), ('I', 'M'), ('I', 'N'), ('K', 'L'), ('L', 'M'), ('M', 'N')]
+
+Source: A
+Destination: B
+Path: A -> B
+SP Length (km): 1100
+Bandwidth (Gbps): 178
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['A', 'B']
+  Allocating on core 1, slots 0-1
+
+Source: A
+Destination: C
+Path: A -> C
+SP Length (km): 600
+Bandwidth (Gbps): 184
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['A', 'C']
+  Allocating on core 1, slots 0-1
+
+Source: A
+Destination: D
+Path: A -> D
+SP Length (km): 1000
+Bandwidth (Gbps): 167
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['A', 'D']
+  Allocating on core 1, slots 0-1
+
+Source: A
+Destination: E
+Path: A -> D -> E
+SP Length (km): 1800
+Bandwidth (Gbps): 189
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['A', 'D', 'E']
+  Allocating on core 2, slots 0-1
+
+Source: A
+Destination: F
+Path: A -> C -> F
+SP Length (km): 2600
+Bandwidth (Gbps): 145
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['A', 'C', 'F']
+  Allocating on core 2, slots 0-2
+
+Source: A
+Destination: G
+Path: A -> D -> E -> G
+SP Length (km): 2500
+Bandwidth (Gbps): 126
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['A', 'D', 'E', 'G']
+  Allocating on core 4, slots 0-2
+
+Source: A
+Destination: H
+Path: A -> D -> E -> G -> H
+SP Length (km): 3200
+Bandwidth (Gbps): 186
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['A', 'D', 'E', 'G', 'H']
+  Allocating on core 5, slots 0-2
+
+Source: A
+Destination: I
+Path: A -> D -> K -> I
+SP Length (km): 4400
+Bandwidth (Gbps): 143
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['A', 'D', 'K', 'I']
+  Allocating on core 6, slots 0-3
+
+Source: A
+Destination: J
+Path: A -> D -> E -> G -> J
+SP Length (km): 3800
+Bandwidth (Gbps): 201
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['A', 'D', 'E', 'G', 'J']
+  Allocating on core 1, slots 2-4
+
+Source: A
+Destination: K
+Path: A -> D -> K
+SP Length (km): 3400
+Bandwidth (Gbps): 173
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['A', 'D', 'K']
+  Allocating on core 2, slots 2-4
+
+Source: A
+Destination: L
+Path: A -> D -> K -> L
+SP Length (km): 4200
+Bandwidth (Gbps): 196
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['A', 'D', 'K', 'L']
+  Allocating on core 7, slots 2-6
+
+Source: A
+Destination: M
+Path: A -> D -> K -> L -> M
+SP Length (km): 4700
+Bandwidth (Gbps): 172
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['A', 'D', 'K', 'L', 'M']
+  Allocating on core 4, slots 3-7
+
+Source: A
+Destination: N
+Path: A -> D -> K -> I -> N
+SP Length (km): 4900
+Bandwidth (Gbps): 198
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['A', 'D', 'K', 'I', 'N']
+  Allocating on core 1, slots 5-9
+
+Source: B
+Destination: A
+Path: B -> A
+SP Length (km): 1100
+Bandwidth (Gbps): 114
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['B', 'A']
+  Allocating on core 2, slots 0-1
+
+Source: B
+Destination: C
+Path: B -> A -> C
+SP Length (km): 1700
+Bandwidth (Gbps): 166
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['B', 'A', 'C']
+  Allocating on core 4, slots 0-1
+
+Source: B
+Destination: D
+Path: B -> A -> D
+SP Length (km): 2100
+Bandwidth (Gbps): 195
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'A', 'D']
+  Allocating on core 2, slots 5-7
+
+Source: B
+Destination: E
+Path: B -> A -> D -> E
+SP Length (km): 2900
+Bandwidth (Gbps): 125
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'A', 'D', 'E']
+  Allocating on core 5, slots 6-8
+
+Source: B
+Destination: F
+Path: B -> A -> C -> F
+SP Length (km): 3700
+Bandwidth (Gbps): 183
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'A', 'C', 'F']
+  Allocating on core 6, slots 0-2
+
+Source: B
+Destination: G
+Path: B -> A -> D -> E -> G
+SP Length (km): 3600
+Bandwidth (Gbps): 142
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'A', 'D', 'E', 'G']
+  Allocating on core 6, slots 6-8
+
+Source: B
+Destination: H
+Path: B -> A -> D -> E -> G -> H
+SP Length (km): 4300
+Bandwidth (Gbps): 201
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 5
+
+Checking for path:  ['B', 'A', 'D', 'E', 'G', 'H']
+  Allocating on core 3, slots 7-12
+
+Source: B
+Destination: I
+Path: B -> K -> I
+SP Length (km): 3800
+Bandwidth (Gbps): 119
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'K', 'I']
+  Allocating on core 2, slots 0-2
+
+Source: B
+Destination: J
+Path: B -> A -> D -> E -> G -> J
+SP Length (km): 4900
+Bandwidth (Gbps): 121
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['B', 'A', 'D', 'E', 'G', 'J']
+  Allocating on core 7, slots 7-10
+
+Source: B
+Destination: K
+Path: B -> K
+SP Length (km): 2800
+Bandwidth (Gbps): 173
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'K']
+  Allocating on core 1, slots 0-2
+
+Source: B
+Destination: L
+Path: B -> K -> L
+SP Length (km): 3600
+Bandwidth (Gbps): 138
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['B', 'K', 'L']
+  Allocating on core 5, slots 0-2
+
+Source: B
+Destination: M
+Path: B -> K -> L -> M
+SP Length (km): 4100
+Bandwidth (Gbps): 123
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['B', 'K', 'L', 'M']
+  Allocating on core 6, slots 0-3
+
+Source: B
+Destination: N
+Path: B -> K -> I -> N
+SP Length (km): 4300
+Bandwidth (Gbps): 169
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['B', 'K', 'I', 'N']
+  Allocating on core 4, slots 0-4
+
+Source: C
+Destination: A
+Path: C -> A
+SP Length (km): 600
+Bandwidth (Gbps): 123
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['C', 'A']
+  Allocating on core 5, slots 0-1
+
+Source: C
+Destination: B
+Path: C -> A -> B
+SP Length (km): 1700
+Bandwidth (Gbps): 138
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['C', 'A', 'B']
+  Allocating on core 1, slots 2-3
+
+Source: C
+Destination: D
+Path: C -> D
+SP Length (km): 600
+Bandwidth (Gbps): 156
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['C', 'D']
+  Allocating on core 1, slots 0-1
+
+Source: C
+Destination: E
+Path: C -> D -> E
+SP Length (km): 1400
+Bandwidth (Gbps): 186
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['C', 'D', 'E']
+  Allocating on core 6, slots 0-1
+
+Source: C
+Destination: F
+Path: C -> F
+SP Length (km): 2000
+Bandwidth (Gbps): 150
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['C', 'F']
+  Allocating on core 1, slots 0-1
+
+Source: C
+Destination: G
+Path: C -> D -> E -> G
+SP Length (km): 2100
+Bandwidth (Gbps): 188
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['C', 'D', 'E', 'G']
+  Allocating on core 2, slots 2-4
+
+Source: C
+Destination: H
+Path: C -> D -> E -> G -> H
+SP Length (km): 2800
+Bandwidth (Gbps): 180
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['C', 'D', 'E', 'G', 'H']
+  Allocating on core 4, slots 3-5
+
+Source: C
+Destination: I
+Path: C -> D -> K -> I
+SP Length (km): 4000
+Bandwidth (Gbps): 153
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['C', 'D', 'K', 'I']
+  Allocating on core 5, slots 0-2
+
+Source: C
+Destination: J
+Path: C -> F -> J
+SP Length (km): 3200
+Bandwidth (Gbps): 101
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['C', 'F', 'J']
+  Allocating on core 4, slots 0-1
+
+Source: C
+Destination: K
+Path: C -> D -> K
+SP Length (km): 3000
+Bandwidth (Gbps): 186
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['C', 'D', 'K']
+  Allocating on core 3, slots 0-2
+
+Source: C
+Destination: L
+Path: C -> D -> K -> L
+SP Length (km): 3800
+Bandwidth (Gbps): 187
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['C', 'D', 'K', 'L']
+  Allocating on core 1, slots 2-4
+
+Source: C
+Destination: M
+Path: C -> D -> K -> L -> M
+SP Length (km): 4300
+Bandwidth (Gbps): 120
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['C', 'D', 'K', 'L', 'M']
+  Allocating on core 2, slots 5-8
+
+Source: C
+Destination: N
+Path: C -> D -> K -> I -> N
+SP Length (km): 4500
+Bandwidth (Gbps): 152
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['C', 'D', 'K', 'I', 'N']
+  Allocating on core 5, slots 6-10
+
+Source: D
+Destination: A
+Path: D -> A
+SP Length (km): 1000
+Bandwidth (Gbps): 196
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['D', 'A']
+  Allocating on core 2, slots 9-10
+
+Source: D
+Destination: B
+Path: D -> A -> B
+SP Length (km): 2100
+Bandwidth (Gbps): 194
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'A', 'B']
+  Allocating on core 5, slots 9-11
+
+Source: D
+Destination: C
+Path: D -> C
+SP Length (km): 600
+Bandwidth (Gbps): 111
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['D', 'C']
+  Allocating on core 7, slots 0-1
+
+Source: D
+Destination: E
+Path: D -> E
+SP Length (km): 800
+Bandwidth (Gbps): 127
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['D', 'E']
+  Allocating on core 1, slots 0-1
+
+Source: D
+Destination: F
+Path: D -> E -> F
+SP Length (km): 1900
+Bandwidth (Gbps): 162
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['D', 'E', 'F']
+  Allocating on core 6, slots 2-3
+
+Source: D
+Destination: G
+Path: D -> E -> G
+SP Length (km): 1500
+Bandwidth (Gbps): 179
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['D', 'E', 'G']
+  Allocating on core 5, slots 3-4
+
+Source: D
+Destination: H
+Path: D -> E -> G -> H
+SP Length (km): 2200
+Bandwidth (Gbps): 196
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'E', 'G', 'H']
+  Allocating on core 1, slots 5-7
+
+Source: D
+Destination: I
+Path: D -> K -> I
+SP Length (km): 3400
+Bandwidth (Gbps): 173
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'K', 'I']
+  Allocating on core 6, slots 6-8
+
+Source: D
+Destination: J
+Path: D -> E -> G -> J
+SP Length (km): 2800
+Bandwidth (Gbps): 101
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['D', 'E', 'G', 'J']
+  Allocating on core 2, slots 5-6
+
+Source: D
+Destination: K
+Path: D -> K
+SP Length (km): 2400
+Bandwidth (Gbps): 170
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'K']
+  Allocating on core 7, slots 7-9
+
+Source: D
+Destination: L
+Path: D -> K -> L
+SP Length (km): 3200
+Bandwidth (Gbps): 137
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'K', 'L']
+  Allocating on core 3, slots 8-10
+
+Source: D
+Destination: M
+Path: D -> K -> L -> M
+SP Length (km): 3700
+Bandwidth (Gbps): 190
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'K', 'L', 'M']
+  Allocating on core 2, slots 9-11
+
+Source: D
+Destination: N
+Path: D -> K -> I -> N
+SP Length (km): 3900
+Bandwidth (Gbps): 165
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['D', 'K', 'I', 'N']
+  Allocating on core 6, slots 9-11
+
+Source: E
+Destination: A
+Path: E -> D -> A
+SP Length (km): 1800
+Bandwidth (Gbps): 110
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'D', 'A']
+  Allocating on core 6, slots 9-10
+
+Source: E
+Destination: B
+Path: E -> D -> A -> B
+SP Length (km): 2900
+Bandwidth (Gbps): 176
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['E', 'D', 'A', 'B']
+  Allocating on core 1, slots 10-12
+
+Source: E
+Destination: C
+Path: E -> D -> C
+SP Length (km): 1400
+Bandwidth (Gbps): 146
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'D', 'C']
+  Allocating on core 7, slots 2-3
+
+Source: E
+Destination: D
+Path: E -> D
+SP Length (km): 800
+Bandwidth (Gbps): 170
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'D']
+  Allocating on core 4, slots 6-7
+
+Source: E
+Destination: F
+Path: E -> F
+SP Length (km): 1100
+Bandwidth (Gbps): 112
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'F']
+  Allocating on core 1, slots 0-1
+
+Source: E
+Destination: G
+Path: E -> G
+SP Length (km): 700
+Bandwidth (Gbps): 141
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'G']
+  Allocating on core 6, slots 0-1
+
+Source: E
+Destination: H
+Path: E -> G -> H
+SP Length (km): 1400
+Bandwidth (Gbps): 104
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'G', 'H']
+  Allocating on core 2, slots 0-1
+
+Source: E
+Destination: I
+Path: E -> D -> K -> I
+SP Length (km): 4200
+Bandwidth (Gbps): 200
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['E', 'D', 'K', 'I']
+  Allocating on core 4, slots 10-14
+
+Source: E
+Destination: J
+Path: E -> G -> J
+SP Length (km): 2000
+Bandwidth (Gbps): 172
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['E', 'G', 'J']
+  Allocating on core 6, slots 2-3
+
+Source: E
+Destination: K
+Path: E -> D -> K
+SP Length (km): 3200
+Bandwidth (Gbps): 192
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['E', 'D', 'K']
+  Allocating on core 2, slots 12-14
+
+Source: E
+Destination: L
+Path: E -> D -> K -> L
+SP Length (km): 4000
+Bandwidth (Gbps): 120
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['E', 'D', 'K', 'L']
+  Allocating on core 5, slots 12-14
+
+Source: E
+Destination: M
+Path: E -> D -> K -> L -> M
+SP Length (km): 4500
+Bandwidth (Gbps): 106
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['E', 'D', 'K', 'L', 'M']
+  Allocating on core 6, slots 12-15
+
+Source: E
+Destination: N
+Path: E -> D -> K -> I -> N
+SP Length (km): 4700
+Bandwidth (Gbps): 165
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['E', 'D', 'K', 'I', 'N']
+  Allocating on core 1, slots 13-17
+
+Source: F
+Destination: A
+Path: F -> C -> A
+SP Length (km): 2600
+Bandwidth (Gbps): 178
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['F', 'C', 'A']
+  Allocating on core 3, slots 1-3
+
+Source: F
+Destination: B
+Path: F -> C -> A -> B
+SP Length (km): 3700
+Bandwidth (Gbps): 125
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['F', 'C', 'A', 'B']
+  Allocating on core 4, slots 2-4
+
+Source: F
+Destination: C
+Path: F -> C
+SP Length (km): 2000
+Bandwidth (Gbps): 183
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['F', 'C']
+  Allocating on core 5, slots 0-1
+
+Source: F
+Destination: D
+Path: F -> E -> D
+SP Length (km): 1900
+Bandwidth (Gbps): 185
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['F', 'E', 'D']
+  Allocating on core 7, slots 4-5
+
+Source: F
+Destination: E
+Path: F -> E
+SP Length (km): 1100
+Bandwidth (Gbps): 190
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['F', 'E']
+  Allocating on core 2, slots 0-1
+
+Source: F
+Destination: G
+Path: F -> E -> G
+SP Length (km): 1800
+Bandwidth (Gbps): 156
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['F', 'E', 'G']
+  Allocating on core 5, slots 5-6
+
+Source: F
+Destination: H
+Path: F -> E -> G -> H
+SP Length (km): 2500
+Bandwidth (Gbps): 158
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['F', 'E', 'G', 'H']
+  Allocating on core 2, slots 7-9
+
+Source: F
+Destination: I
+Path: F -> E -> D -> K -> I
+SP Length (km): 5300
+Bandwidth (Gbps): 108
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['F', 'E', 'D', 'K', 'I']
+  Allocating on core 3, slots 14-17
+
+Source: F
+Destination: J
+Path: F -> J
+SP Length (km): 1200
+Bandwidth (Gbps): 184
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['F', 'J']
+  Allocating on core 1, slots 0-1
+
+Source: F
+Destination: K
+Path: F -> E -> D -> K
+SP Length (km): 4300
+Bandwidth (Gbps): 152
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['F', 'E', 'D', 'K']
+  Allocating on core 7, slots 14-18
+
+Source: F
+Destination: L
+Path: F -> E -> D -> K -> L
+SP Length (km): 5100
+Bandwidth (Gbps): 103
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['F', 'E', 'D', 'K', 'L']
+  Allocating on core 5, slots 15-18
+
+Source: F
+Destination: M
+Path: F -> E -> D -> K -> L -> M
+SP Length (km): 5600
+Bandwidth (Gbps): 140
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['F', 'E', 'D', 'K', 'L', 'M']
+  Allocating on core 6, slots 16-19
+
+Source: F
+Destination: N
+Path: F -> E -> D -> K -> I -> N
+SP Length (km): 5800
+Bandwidth (Gbps): 200
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['F', 'E', 'D', 'K', 'I', 'N']
+  Allocating on core 2, slots 17-21
+
+Source: G
+Destination: A
+Path: G -> E -> D -> A
+SP Length (km): 2500
+Bandwidth (Gbps): 198
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['G', 'E', 'D', 'A']
+  Allocating on core 1, slots 18-20
+
+Source: G
+Destination: B
+Path: G -> E -> D -> A -> B
+SP Length (km): 3600
+Bandwidth (Gbps): 134
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['G', 'E', 'D', 'A', 'B']
+  Allocating on core 4, slots 18-20
+
+Source: G
+Destination: C
+Path: G -> E -> D -> C
+SP Length (km): 2100
+Bandwidth (Gbps): 199
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['G', 'E', 'D', 'C']
+  Allocating on core 5, slots 19-21
+
+Source: G
+Destination: D
+Path: G -> E -> D
+SP Length (km): 1500
+Bandwidth (Gbps): 156
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['G', 'E', 'D']
+  Allocating on core 5, slots 9-10
+
+Source: G
+Destination: E
+Path: G -> E
+SP Length (km): 700
+Bandwidth (Gbps): 107
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['G', 'E']
+  Allocating on core 7, slots 2-3
+
+Source: G
+Destination: F
+Path: G -> E -> F
+SP Length (km): 1800
+Bandwidth (Gbps): 141
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['G', 'E', 'F']
+  Allocating on core 4, slots 6-7
+
+Source: G
+Destination: H
+Path: G -> H
+SP Length (km): 700
+Bandwidth (Gbps): 113
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['G', 'H']
+  Allocating on core 6, slots 0-1
+
+Source: G
+Destination: I
+Path: G -> E -> D -> K -> I
+SP Length (km): 4900
+Bandwidth (Gbps): 178
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['G', 'E', 'D', 'K', 'I']
+  Allocating on core 3, slots 20-24
+
+Source: G
+Destination: J
+Path: G -> J
+SP Length (km): 1300
+Bandwidth (Gbps): 109
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['G', 'J']
+  Allocating on core 3, slots 0-1
+
+Source: G
+Destination: K
+Path: G -> E -> D -> K
+SP Length (km): 3900
+Bandwidth (Gbps): 200
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['G', 'E', 'D', 'K']
+  Allocating on core 6, slots 20-22
+
+Source: G
+Destination: L
+Path: G -> E -> D -> K -> L
+SP Length (km): 4700
+Bandwidth (Gbps): 101
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['G', 'E', 'D', 'K', 'L']
+  Allocating on core 7, slots 20-23
+
+Source: G
+Destination: M
+Path: G -> E -> D -> K -> L -> M
+SP Length (km): 5200
+Bandwidth (Gbps): 139
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['G', 'E', 'D', 'K', 'L', 'M']
+  Allocating on core 1, slots 21-24
+
+Source: G
+Destination: N
+Path: G -> E -> D -> K -> I -> N
+SP Length (km): 5400
+Bandwidth (Gbps): 144
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['G', 'E', 'D', 'K', 'I', 'N']
+  Allocating on core 5, slots 22-25
+
+Source: H
+Destination: A
+Path: H -> G -> E -> D -> A
+SP Length (km): 3200
+Bandwidth (Gbps): 172
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['H', 'G', 'E', 'D', 'A']
+  Allocating on core 6, slots 23-25
+
+Source: H
+Destination: B
+Path: H -> G -> E -> D -> A -> B
+SP Length (km): 4300
+Bandwidth (Gbps): 122
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['H', 'G', 'E', 'D', 'A', 'B']
+  Allocating on core 2, slots 24-27
+
+Source: H
+Destination: C
+Path: H -> G -> E -> D -> C
+SP Length (km): 2800
+Bandwidth (Gbps): 191
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['H', 'G', 'E', 'D', 'C']
+  Allocating on core 4, slots 24-26
+
+Source: H
+Destination: D
+Path: H -> G -> E -> D
+SP Length (km): 2200
+Bandwidth (Gbps): 185
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['H', 'G', 'E', 'D']
+  Allocating on core 1, slots 25-27
+
+Source: H
+Destination: E
+Path: H -> G -> E
+SP Length (km): 1400
+Bandwidth (Gbps): 177
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['H', 'G', 'E']
+  Allocating on core 7, slots 4-5
+
+Source: H
+Destination: F
+Path: H -> G -> E -> F
+SP Length (km): 2500
+Bandwidth (Gbps): 180
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['H', 'G', 'E', 'F']
+  Allocating on core 4, slots 10-12
+
+Source: H
+Destination: G
+Path: H -> G
+SP Length (km): 700
+Bandwidth (Gbps): 201
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['H', 'G']
+  Allocating on core 7, slots 0-2
+
+Source: H
+Destination: I
+Path: H -> G -> E -> D -> K -> I
+SP Length (km): 5600
+Bandwidth (Gbps): 190
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['H', 'G', 'E', 'D', 'K', 'I']
+  Allocating on core 7, slots 25-29
+
+Source: H
+Destination: J
+Path: H -> G -> J
+SP Length (km): 2000
+Bandwidth (Gbps): 179
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['H', 'G', 'J']
+  Allocating on core 5, slots 3-4
+
+Source: H
+Destination: K
+Path: H -> G -> E -> D -> K
+SP Length (km): 4600
+Bandwidth (Gbps): 187
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['H', 'G', 'E', 'D', 'K']
+  Allocating on core 5, slots 26-30
+
+Source: H
+Destination: L
+Path: H -> G -> E -> D -> K -> L
+SP Length (km): 5400
+Bandwidth (Gbps): 137
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['H', 'G', 'E', 'D', 'K', 'L']
+  Allocating on core 6, slots 26-29
+
+Source: H
+Destination: M
+Path: H -> G -> E -> D -> K -> L -> M
+SP Length (km): 5900
+Bandwidth (Gbps): 100
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['H', 'G', 'E', 'D', 'K', 'L', 'M']
+  Allocating on core 3, slots 27-29
+
+Source: H
+Destination: N
+Path: H -> G -> E -> D -> K -> I -> N
+SP Length (km): 6100
+Bandwidth (Gbps): 112
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['H', 'G', 'E', 'D', 'K', 'I', 'N']
+  Allocating on core 1, slots 28-31
+
+Source: I
+Destination: A
+Path: I -> K -> D -> A
+SP Length (km): 4400
+Bandwidth (Gbps): 144
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['I', 'K', 'D', 'A']
+  Allocating on core 2, slots 29-32
+
+Source: I
+Destination: B
+Path: I -> K -> B
+SP Length (km): 3800
+Bandwidth (Gbps): 184
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['I', 'K', 'B']
+  Allocating on core 7, slots 3-5
+
+Source: I
+Destination: C
+Path: I -> K -> D -> C
+SP Length (km): 4000
+Bandwidth (Gbps): 117
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['I', 'K', 'D', 'C']
+  Allocating on core 1, slots 10-12
+
+Source: I
+Destination: D
+Path: I -> K -> D
+SP Length (km): 3400
+Bandwidth (Gbps): 167
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['I', 'K', 'D']
+  Allocating on core 4, slots 18-20
+
+Source: I
+Destination: E
+Path: I -> K -> D -> E
+SP Length (km): 4200
+Bandwidth (Gbps): 105
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['I', 'K', 'D', 'E']
+  Allocating on core 4, slots 29-32
+
+Source: I
+Destination: F
+Path: I -> K -> D -> E -> F
+SP Length (km): 5300
+Bandwidth (Gbps): 126
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['I', 'K', 'D', 'E', 'F']
+  Allocating on core 6, slots 30-33
+
+Source: I
+Destination: G
+Path: I -> K -> D -> E -> G
+SP Length (km): 4900
+Bandwidth (Gbps): 191
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['I', 'K', 'D', 'E', 'G']
+  Allocating on core 5, slots 31-35
+
+Source: I
+Destination: H
+Path: I -> K -> D -> E -> G -> H
+SP Length (km): 5600
+Bandwidth (Gbps): 158
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['I', 'K', 'D', 'E', 'G', 'H']
+  Allocating on core 1, slots 32-36
+
+Source: I
+Destination: J
+Path: I -> K -> D -> E -> G -> J
+SP Length (km): 6200
+Bandwidth (Gbps): 148
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['I', 'K', 'D', 'E', 'G', 'J']
+  Allocating on core 3, slots 32-35
+
+Source: I
+Destination: K
+Path: I -> K
+SP Length (km): 1000
+Bandwidth (Gbps): 143
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['I', 'K']
+  Allocating on core 7, slots 6-7
+
+Source: I
+Destination: L
+Path: I -> L
+SP Length (km): 500
+Bandwidth (Gbps): 147
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['I', 'L']
+  Allocating on core 1, slots 0-1
+
+Source: I
+Destination: M
+Path: I -> M
+SP Length (km): 500
+Bandwidth (Gbps): 111
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['I', 'M']
+  Allocating on core 1, slots 0-1
+
+Source: I
+Destination: N
+Path: I -> N
+SP Length (km): 500
+Bandwidth (Gbps): 146
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['I', 'N']
+  Allocating on core 3, slots 0-1
+
+Source: J
+Destination: A
+Path: J -> G -> E -> D -> A
+SP Length (km): 3800
+Bandwidth (Gbps): 156
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['J', 'G', 'E', 'D', 'A']
+  Allocating on core 7, slots 32-34
+
+Source: J
+Destination: B
+Path: J -> G -> E -> D -> A -> B
+SP Length (km): 4900
+Bandwidth (Gbps): 150
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['J', 'G', 'E', 'D', 'A', 'B']
+  Allocating on core 6, slots 34-37
+
+Source: J
+Destination: C
+Path: J -> F -> C
+SP Length (km): 3200
+Bandwidth (Gbps): 149
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['J', 'F', 'C']
+  Allocating on core 1, slots 2-4
+
+Source: J
+Destination: D
+Path: J -> G -> E -> D
+SP Length (km): 2800
+Bandwidth (Gbps): 183
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['J', 'G', 'E', 'D']
+  Allocating on core 2, slots 29-31
+
+Source: J
+Destination: E
+Path: J -> G -> E
+SP Length (km): 2000
+Bandwidth (Gbps): 141
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['J', 'G', 'E']
+  Allocating on core 1, slots 0-1
+
+Source: J
+Destination: F
+Path: J -> F
+SP Length (km): 1200
+Bandwidth (Gbps): 194
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['J', 'F']
+  Allocating on core 2, slots 0-1
+
+Source: J
+Destination: G
+Path: J -> G
+SP Length (km): 1300
+Bandwidth (Gbps): 104
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['J', 'G']
+  Allocating on core 4, slots 0-1
+
+Source: J
+Destination: H
+Path: J -> G -> H
+SP Length (km): 2000
+Bandwidth (Gbps): 120
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['J', 'G', 'H']
+  Allocating on core 5, slots 5-6
+
+Source: J
+Destination: I
+Path: J -> G -> E -> D -> K -> I
+SP Length (km): 6200
+Bandwidth (Gbps): 188
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['J', 'G', 'E', 'D', 'K', 'I']
+  Allocating on core 2, slots 35-39
+
+Source: J
+Destination: K
+Path: J -> G -> E -> D -> K
+SP Length (km): 5200
+Bandwidth (Gbps): 163
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['J', 'G', 'E', 'D', 'K']
+  Allocating on core 4, slots 35-39
+
+Source: J
+Destination: L
+Path: J -> G -> E -> D -> K -> L
+SP Length (km): 6000
+Bandwidth (Gbps): 144
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['J', 'G', 'E', 'D', 'K', 'L']
+  Allocating on core 5, slots 36-39
+
+Source: J
+Destination: M
+Path: J -> G -> E -> D -> K -> L -> M
+SP Length (km): 6500
+Bandwidth (Gbps): 129
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['J', 'G', 'E', 'D', 'K', 'L', 'M']
+  Allocating on core 1, slots 37-40
+
+Source: J
+Destination: N
+Path: J -> G -> E -> D -> K -> I -> N
+SP Length (km): 6700
+Bandwidth (Gbps): 191
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['J', 'G', 'E', 'D', 'K', 'I', 'N']
+  Allocating on core 6, slots 38-42
+
+Source: K
+Destination: A
+Path: K -> D -> A
+SP Length (km): 3400
+Bandwidth (Gbps): 147
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['K', 'D', 'A']
+  Allocating on core 5, slots 19-21
+
+Source: K
+Destination: B
+Path: K -> B
+SP Length (km): 2800
+Bandwidth (Gbps): 122
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['K', 'B']
+  Allocating on core 1, slots 3-5
+
+Source: K
+Destination: C
+Path: K -> D -> C
+SP Length (km): 3000
+Bandwidth (Gbps): 166
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['K', 'D', 'C']
+  Allocating on core 1, slots 18-20
+
+Source: K
+Destination: D
+Path: K -> D
+SP Length (km): 2400
+Bandwidth (Gbps): 126
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['K', 'D']
+  Allocating on core 7, slots 32-34
+
+Source: K
+Destination: E
+Path: K -> D -> E
+SP Length (km): 3200
+Bandwidth (Gbps): 175
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['K', 'D', 'E']
+  Allocating on core 3, slots 39-41
+
+Source: K
+Destination: F
+Path: K -> D -> E -> F
+SP Length (km): 4300
+Bandwidth (Gbps): 154
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['K', 'D', 'E', 'F']
+  Allocating on core 7, slots 39-43
+
+Source: K
+Destination: G
+Path: K -> D -> E -> G
+SP Length (km): 3900
+Bandwidth (Gbps): 197
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['K', 'D', 'E', 'G']
+  Allocating on core 2, slots 40-42
+
+Source: K
+Destination: H
+Path: K -> D -> E -> G -> H
+SP Length (km): 4600
+Bandwidth (Gbps): 187
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['K', 'D', 'E', 'G', 'H']
+  Allocating on core 5, slots 40-44
+
+Source: K
+Destination: I
+Path: K -> I
+SP Length (km): 1000
+Bandwidth (Gbps): 171
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['K', 'I']
+  Allocating on core 7, slots 8-9
+
+Source: K
+Destination: J
+Path: K -> D -> E -> G -> J
+SP Length (km): 5200
+Bandwidth (Gbps): 149
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['K', 'D', 'E', 'G', 'J']
+  Allocating on core 1, slots 41-44
+
+Source: K
+Destination: L
+Path: K -> L
+SP Length (km): 800
+Bandwidth (Gbps): 108
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['K', 'L']
+  Allocating on core 4, slots 0-1
+
+Source: K
+Destination: M
+Path: K -> L -> M
+SP Length (km): 1300
+Bandwidth (Gbps): 187
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['K', 'L', 'M']
+  Allocating on core 3, slots 1-2
+
+Source: K
+Destination: N
+Path: K -> I -> N
+SP Length (km): 1500
+Bandwidth (Gbps): 100
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['K', 'I', 'N']
+  Allocating on core 3, slots 2-3
+
+Source: L
+Destination: A
+Path: L -> K -> D -> A
+SP Length (km): 4200
+Bandwidth (Gbps): 153
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['L', 'K', 'D', 'A']
+  Allocating on core 3, slots 42-46
+
+Source: L
+Destination: B
+Path: L -> K -> B
+SP Length (km): 3600
+Bandwidth (Gbps): 155
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['L', 'K', 'B']
+  Allocating on core 7, slots 7-9
+
+Source: L
+Destination: C
+Path: L -> K -> D -> C
+SP Length (km): 3800
+Bandwidth (Gbps): 123
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['L', 'K', 'D', 'C']
+  Allocating on core 2, slots 24-26
+
+Source: L
+Destination: D
+Path: L -> K -> D
+SP Length (km): 3200
+Bandwidth (Gbps): 143
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['L', 'K', 'D']
+  Allocating on core 4, slots 24-26
+
+Source: L
+Destination: E
+Path: L -> K -> D -> E
+SP Length (km): 4000
+Bandwidth (Gbps): 169
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['L', 'K', 'D', 'E']
+  Allocating on core 6, slots 43-45
+
+Source: L
+Destination: F
+Path: L -> K -> D -> E -> F
+SP Length (km): 5100
+Bandwidth (Gbps): 119
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['L', 'K', 'D', 'E', 'F']
+  Allocating on core 2, slots 44-47
+
+Source: L
+Destination: G
+Path: L -> K -> D -> E -> G
+SP Length (km): 4700
+Bandwidth (Gbps): 161
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['L', 'K', 'D', 'E', 'G']
+  Allocating on core 7, slots 44-48
+
+Source: L
+Destination: H
+Path: L -> K -> D -> E -> G -> H
+SP Length (km): 5400
+Bandwidth (Gbps): 132
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['L', 'K', 'D', 'E', 'G', 'H']
+  Allocating on core 5, slots 45-48
+
+Source: L
+Destination: I
+Path: L -> I
+SP Length (km): 500
+Bandwidth (Gbps): 154
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['L', 'I']
+  Allocating on core 2, slots 0-1
+
+Source: L
+Destination: J
+Path: L -> K -> D -> E -> G -> J
+SP Length (km): 6000
+Bandwidth (Gbps): 111
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['L', 'K', 'D', 'E', 'G', 'J']
+  Allocating on core 1, slots 46-49
+
+Source: L
+Destination: K
+Path: L -> K
+SP Length (km): 800
+Bandwidth (Gbps): 197
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['L', 'K']
+  Allocating on core 4, slots 10-11
+
+Source: L
+Destination: M
+Path: L -> M
+SP Length (km): 500
+Bandwidth (Gbps): 197
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['L', 'M']
+  Allocating on core 5, slots 0-1
+
+Source: L
+Destination: N
+Path: L -> M -> N
+SP Length (km): 800
+Bandwidth (Gbps): 191
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['L', 'M', 'N']
+  Allocating on core 7, slots 0-1
+
+Source: M
+Destination: A
+Path: M -> L -> K -> D -> A
+SP Length (km): 4700
+Bandwidth (Gbps): 115
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['M', 'L', 'K', 'D', 'A']
+  Allocating on core 6, slots 46-49
+
+Source: M
+Destination: B
+Path: M -> L -> K -> B
+SP Length (km): 4100
+Bandwidth (Gbps): 195
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['M', 'L', 'K', 'B']
+  Allocating on core 5, slots 6-10
+
+Source: M
+Destination: C
+Path: M -> L -> K -> D -> C
+SP Length (km): 4300
+Bandwidth (Gbps): 124
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['M', 'L', 'K', 'D', 'C']
+  Allocating on core 6, slots 34-37
+
+Source: M
+Destination: D
+Path: M -> L -> K -> D
+SP Length (km): 3700
+Bandwidth (Gbps): 125
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['M', 'L', 'K', 'D']
+  Allocating on core 1, slots 25-27
+
+Source: M
+Destination: E
+Path: M -> L -> K -> D -> E
+SP Length (km): 4500
+Bandwidth (Gbps): 149
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['M', 'L', 'K', 'D', 'E']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: M
+Destination: F
+Path: M -> L -> K -> D -> E -> F
+SP Length (km): 5600
+Bandwidth (Gbps): 200
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['M', 'L', 'K', 'D', 'E', 'F']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: M
+Destination: G
+Path: M -> L -> K -> D -> E -> G
+SP Length (km): 5200
+Bandwidth (Gbps): 121
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['M', 'L', 'K', 'D', 'E', 'G']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: M
+Destination: H
+Path: M -> L -> K -> D -> E -> G -> H
+SP Length (km): 5900
+Bandwidth (Gbps): 155
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['M', 'L', 'K', 'D', 'E', 'G', 'H']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: M
+Destination: I
+Path: M -> I
+SP Length (km): 500
+Bandwidth (Gbps): 156
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['M', 'I']
+  Allocating on core 2, slots 0-1
+
+Source: M
+Destination: J
+Path: M -> L -> K -> D -> E -> G -> J
+SP Length (km): 6500
+Bandwidth (Gbps): 185
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['M', 'L', 'K', 'D', 'E', 'G', 'J']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: M
+Destination: K
+Path: M -> L -> K
+SP Length (km): 1300
+Bandwidth (Gbps): 106
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['M', 'L', 'K']
+  Allocating on core 2, slots 0-1
+
+Source: M
+Destination: L
+Path: M -> L
+SP Length (km): 500
+Bandwidth (Gbps): 137
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['M', 'L']
+  Allocating on core 7, slots 2-3
+
+Source: M
+Destination: N
+Path: M -> N
+SP Length (km): 300
+Bandwidth (Gbps): 110
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['M', 'N']
+  Allocating on core 1, slots 0-1
+
+Source: N
+Destination: A
+Path: N -> I -> K -> D -> A
+SP Length (km): 4900
+Bandwidth (Gbps): 195
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['N', 'I', 'K', 'D', 'A']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: B
+Path: N -> I -> K -> B
+SP Length (km): 4300
+Bandwidth (Gbps): 148
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['N', 'I', 'K', 'B']
+  Allocating on core 3, slots 4-7
+
+Source: N
+Destination: C
+Path: N -> I -> K -> D -> C
+SP Length (km): 4500
+Bandwidth (Gbps): 121
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['N', 'I', 'K', 'D', 'C']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: D
+Path: N -> I -> K -> D
+SP Length (km): 3900
+Bandwidth (Gbps): 128
+Selected Modulation Format: 8-QAM
+FS Capacity: 37.5 GHz
+Efficiency: 3
+Slots needed (excluding guard bit): 2
+
+Checking for path:  ['N', 'I', 'K', 'D']
+  Allocating on core 6, slots 23-25
+
+Source: N
+Destination: E
+Path: N -> I -> K -> D -> E
+SP Length (km): 4700
+Bandwidth (Gbps): 144
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['N', 'I', 'K', 'D', 'E']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: F
+Path: N -> I -> K -> D -> E -> F
+SP Length (km): 5800
+Bandwidth (Gbps): 140
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['N', 'I', 'K', 'D', 'E', 'F']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: G
+Path: N -> I -> K -> D -> E -> G
+SP Length (km): 5400
+Bandwidth (Gbps): 199
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['N', 'I', 'K', 'D', 'E', 'G']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: H
+Path: N -> I -> K -> D -> E -> G -> H
+SP Length (km): 6100
+Bandwidth (Gbps): 124
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 3
+
+Checking for path:  ['N', 'I', 'K', 'D', 'E', 'G', 'H']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: I
+Path: N -> I
+SP Length (km): 500
+Bandwidth (Gbps): 161
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['N', 'I']
+  Allocating on core 7, slots 1-2
+
+Source: N
+Destination: J
+Path: N -> I -> K -> D -> E -> G -> J
+SP Length (km): 6700
+Bandwidth (Gbps): 168
+Selected Modulation Format: QPSK
+FS Capacity: 25 GHz
+Efficiency: 2
+Slots needed (excluding guard bit): 4
+
+Checking for path:  ['N', 'I', 'K', 'D', 'E', 'G', 'J']
+  Allocation FAILED: No contiguous slots available without strong crosstalk.
+
+Source: N
+Destination: K
+Path: N -> I -> K
+SP Length (km): 1500
+Bandwidth (Gbps): 185
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['N', 'I', 'K']
+  Allocating on core 4, slots 5-6
+
+Source: N
+Destination: L
+Path: N -> M -> L
+SP Length (km): 800
+Bandwidth (Gbps): 109
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['N', 'M', 'L']
+  Allocating on core 4, slots 1-2
+
+Source: N
+Destination: M
+Path: N -> M
+SP Length (km): 300
+Bandwidth (Gbps): 172
+Selected Modulation Format: 16-QAM
+FS Capacity: 50 GHz
+Efficiency: 4
+Slots needed (excluding guard bit): 1
+
+Checking for path:  ['N', 'M']
+  Allocating on core 2, slots 0-1
+
+Current Slot Usage:
+B - A:
+  Core 1: [1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+C - A:
+  Core 1: [1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+A - D:
+  Core 1: [1, 'G', 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 1, 1, 'G', 1, 1, 'G', 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0]
+  Core 4: [1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 0, 0, 0, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 1, 'G', 0, 0, 1, 1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G']
+  Core 7: [0, 0, 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+B - K:
+  Core 1: [1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 1, 1, 'G', 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+C - D:
+  Core 1: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [0, 0, 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+F - C:
+  Core 1: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+E - D:
+  Core 1: [1, 'G', 1, 1, 'G', 1, 1, 'G', 0, 0, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 1, 1, 1, 'G']
+  Core 2: [1, 'G', 1, 1, 'G', 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 1, 1, 1, 'G', 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 'G', 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 1, 'G', 1, 1, 'G', 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 1, 'G', 0, 1, 1, 'G', 1, 'G', 0, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 0]
+  Core 6: [1, 'G', 1, 'G', 0, 0, 1, 1, 'G', 1, 'G', 0, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0]
+  Core 7: [0, 0, 1, 'G', 1, 'G', 0, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 1, 1, 1, 'G', 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 0]
+K - D:
+  Core 1: [0, 0, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 1, 1, 1, 'G']
+  Core 2: [0, 0, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 1, 1, 1, 'G', 0, 0]
+  Core 3: [1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0]
+  Core 4: [0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 0]
+  Core 6: [1, 1, 1, 'G', 0, 0, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G']
+  Core 7: [0, 0, 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 1, 1, 1, 'G', 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 0]
+F - E:
+  Core 1: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 0, 0, 0, 0, 0, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0]
+G - E:
+  Core 1: [1, 'G', 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 1, 1, 1, 'G']
+  Core 2: [1, 'G', 1, 1, 'G', 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 1, 'G', 1, 1, 'G', 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 1, 'G', 1, 'G', 0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 0]
+  Core 6: [1, 'G', 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 1, 'G', 1, 'G', 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 1, 1, 1, 1, 'G', 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0]
+F - J:
+  Core 1: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+G - H:
+  Core 1: [0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 1, 1, 1, 'G', 0]
+  Core 6: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [1, 1, 'G', 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+G - J:
+  Core 1: [1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 1, 1, 1, 'G']
+  Core 2: [0, 0, 0, 0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+I - K:
+  Core 1: [0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 1, 1, 1, 'G', 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 1, 'G', 0, 0, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 1, 1, 'G', 1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+I - L:
+  Core 1: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+I - M:
+  Core 1: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+I - N:
+  Core 1: [0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [1, 'G', 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [1, 1, 1, 1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+L - K:
+  Core 1: [0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 1, 'G']
+  Core 2: [1, 'G', 0, 0, 0, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0]
+  Core 3: [0, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0]
+  Core 4: [1, 'G', 0, 1, 1, 1, 1, 'G', 0, 0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 1, 'G', 0, 0, 0, 1, 1, 1, 1, 'G', 0, 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0]
+  Core 6: [1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 1, 1, 'G', 1, 1, 1, 'G']
+  Core 7: [0, 0, 1, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0]
+M - L:
+  Core 1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 1, 1, 1, 'G', 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 1, 'G', 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [1, 'G', 0, 0, 0, 0, 1, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 'G']
+  Core 7: [1, 'G', 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+M - N:
+  Core 1: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 2: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 4: [0, 1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 6: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Core 7: [1, 'G', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Request Log:
+Request 1 : Source= A , Destination= B , Path= A -> B , SP Length= 1100  km, Bandwidth= 178  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 2 : Source= A , Destination= C , Path= A -> C , SP Length= 600  km, Bandwidth= 184  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 3 : Source= A , Destination= D , Path= A -> D , SP Length= 1000  km, Bandwidth= 167  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 4 : Source= A , Destination= E , Path= A -> D -> E , SP Length= 1800  km, Bandwidth= 189  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 5 : Source= A , Destination= F , Path= A -> C -> F , SP Length= 2600  km, Bandwidth= 145  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 6 : Source= A , Destination= G , Path= A -> D -> E -> G , SP Length= 2500  km, Bandwidth= 126  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 7 : Source= A , Destination= H , Path= A -> D -> E -> G -> H , SP Length= 3200  km, Bandwidth= 186  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 8 : Source= A , Destination= I , Path= A -> D -> K -> I , SP Length= 4400  km, Bandwidth= 143  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 9 : Source= A , Destination= J , Path= A -> D -> E -> G -> J , SP Length= 3800  km, Bandwidth= 201  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 10 : Source= A , Destination= K , Path= A -> D -> K , SP Length= 3400  km, Bandwidth= 173  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 11 : Source= A , Destination= L , Path= A -> D -> K -> L , SP Length= 4200  km, Bandwidth= 196  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 12 : Source= A , Destination= M , Path= A -> D -> K -> L -> M , SP Length= 4700  km, Bandwidth= 172  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 13 : Source= A , Destination= N , Path= A -> D -> K -> I -> N , SP Length= 4900  km, Bandwidth= 198  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 14 : Source= B , Destination= A , Path= B -> A , SP Length= 1100  km, Bandwidth= 114  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 15 : Source= B , Destination= C , Path= B -> A -> C , SP Length= 1700  km, Bandwidth= 166  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 16 : Source= B , Destination= D , Path= B -> A -> D , SP Length= 2100  km, Bandwidth= 195  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 17 : Source= B , Destination= E , Path= B -> A -> D -> E , SP Length= 2900  km, Bandwidth= 125  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 18 : Source= B , Destination= F , Path= B -> A -> C -> F , SP Length= 3700  km, Bandwidth= 183  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 19 : Source= B , Destination= G , Path= B -> A -> D -> E -> G , SP Length= 3600  km, Bandwidth= 142  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 20 : Source= B , Destination= H , Path= B -> A -> D -> E -> G -> H , SP Length= 4300  km, Bandwidth= 201  Gbps, Modulation= QPSK , Slots Needed= 5 , Success= True
+Request 21 : Source= B , Destination= I , Path= B -> K -> I , SP Length= 3800  km, Bandwidth= 119  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 22 : Source= B , Destination= J , Path= B -> A -> D -> E -> G -> J , SP Length= 4900  km, Bandwidth= 121  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 23 : Source= B , Destination= K , Path= B -> K , SP Length= 2800  km, Bandwidth= 173  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 24 : Source= B , Destination= L , Path= B -> K -> L , SP Length= 3600  km, Bandwidth= 138  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 25 : Source= B , Destination= M , Path= B -> K -> L -> M , SP Length= 4100  km, Bandwidth= 123  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 26 : Source= B , Destination= N , Path= B -> K -> I -> N , SP Length= 4300  km, Bandwidth= 169  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 27 : Source= C , Destination= A , Path= C -> A , SP Length= 600  km, Bandwidth= 123  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 28 : Source= C , Destination= B , Path= C -> A -> B , SP Length= 1700  km, Bandwidth= 138  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 29 : Source= C , Destination= D , Path= C -> D , SP Length= 600  km, Bandwidth= 156  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 30 : Source= C , Destination= E , Path= C -> D -> E , SP Length= 1400  km, Bandwidth= 186  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 31 : Source= C , Destination= F , Path= C -> F , SP Length= 2000  km, Bandwidth= 150  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 32 : Source= C , Destination= G , Path= C -> D -> E -> G , SP Length= 2100  km, Bandwidth= 188  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 33 : Source= C , Destination= H , Path= C -> D -> E -> G -> H , SP Length= 2800  km, Bandwidth= 180  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 34 : Source= C , Destination= I , Path= C -> D -> K -> I , SP Length= 4000  km, Bandwidth= 153  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 35 : Source= C , Destination= J , Path= C -> F -> J , SP Length= 3200  km, Bandwidth= 101  Gbps, Modulation= 8-QAM , Slots Needed= 1 , Success= True
+Request 36 : Source= C , Destination= K , Path= C -> D -> K , SP Length= 3000  km, Bandwidth= 186  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 37 : Source= C , Destination= L , Path= C -> D -> K -> L , SP Length= 3800  km, Bandwidth= 187  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 38 : Source= C , Destination= M , Path= C -> D -> K -> L -> M , SP Length= 4300  km, Bandwidth= 120  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 39 : Source= C , Destination= N , Path= C -> D -> K -> I -> N , SP Length= 4500  km, Bandwidth= 152  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 40 : Source= D , Destination= A , Path= D -> A , SP Length= 1000  km, Bandwidth= 196  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 41 : Source= D , Destination= B , Path= D -> A -> B , SP Length= 2100  km, Bandwidth= 194  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 42 : Source= D , Destination= C , Path= D -> C , SP Length= 600  km, Bandwidth= 111  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 43 : Source= D , Destination= E , Path= D -> E , SP Length= 800  km, Bandwidth= 127  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 44 : Source= D , Destination= F , Path= D -> E -> F , SP Length= 1900  km, Bandwidth= 162  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 45 : Source= D , Destination= G , Path= D -> E -> G , SP Length= 1500  km, Bandwidth= 179  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 46 : Source= D , Destination= H , Path= D -> E -> G -> H , SP Length= 2200  km, Bandwidth= 196  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 47 : Source= D , Destination= I , Path= D -> K -> I , SP Length= 3400  km, Bandwidth= 173  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 48 : Source= D , Destination= J , Path= D -> E -> G -> J , SP Length= 2800  km, Bandwidth= 101  Gbps, Modulation= 8-QAM , Slots Needed= 1 , Success= True
+Request 49 : Source= D , Destination= K , Path= D -> K , SP Length= 2400  km, Bandwidth= 170  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 50 : Source= D , Destination= L , Path= D -> K -> L , SP Length= 3200  km, Bandwidth= 137  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 51 : Source= D , Destination= M , Path= D -> K -> L -> M , SP Length= 3700  km, Bandwidth= 190  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 52 : Source= D , Destination= N , Path= D -> K -> I -> N , SP Length= 3900  km, Bandwidth= 165  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 53 : Source= E , Destination= A , Path= E -> D -> A , SP Length= 1800  km, Bandwidth= 110  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 54 : Source= E , Destination= B , Path= E -> D -> A -> B , SP Length= 2900  km, Bandwidth= 176  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 55 : Source= E , Destination= C , Path= E -> D -> C , SP Length= 1400  km, Bandwidth= 146  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 56 : Source= E , Destination= D , Path= E -> D , SP Length= 800  km, Bandwidth= 170  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 57 : Source= E , Destination= F , Path= E -> F , SP Length= 1100  km, Bandwidth= 112  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 58 : Source= E , Destination= G , Path= E -> G , SP Length= 700  km, Bandwidth= 141  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 59 : Source= E , Destination= H , Path= E -> G -> H , SP Length= 1400  km, Bandwidth= 104  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 60 : Source= E , Destination= I , Path= E -> D -> K -> I , SP Length= 4200  km, Bandwidth= 200  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 61 : Source= E , Destination= J , Path= E -> G -> J , SP Length= 2000  km, Bandwidth= 172  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 62 : Source= E , Destination= K , Path= E -> D -> K , SP Length= 3200  km, Bandwidth= 192  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 63 : Source= E , Destination= L , Path= E -> D -> K -> L , SP Length= 4000  km, Bandwidth= 120  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 64 : Source= E , Destination= M , Path= E -> D -> K -> L -> M , SP Length= 4500  km, Bandwidth= 106  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 65 : Source= E , Destination= N , Path= E -> D -> K -> I -> N , SP Length= 4700  km, Bandwidth= 165  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 66 : Source= F , Destination= A , Path= F -> C -> A , SP Length= 2600  km, Bandwidth= 178  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 67 : Source= F , Destination= B , Path= F -> C -> A -> B , SP Length= 3700  km, Bandwidth= 125  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 68 : Source= F , Destination= C , Path= F -> C , SP Length= 2000  km, Bandwidth= 183  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 69 : Source= F , Destination= D , Path= F -> E -> D , SP Length= 1900  km, Bandwidth= 185  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 70 : Source= F , Destination= E , Path= F -> E , SP Length= 1100  km, Bandwidth= 190  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 71 : Source= F , Destination= G , Path= F -> E -> G , SP Length= 1800  km, Bandwidth= 156  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 72 : Source= F , Destination= H , Path= F -> E -> G -> H , SP Length= 2500  km, Bandwidth= 158  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 73 : Source= F , Destination= I , Path= F -> E -> D -> K -> I , SP Length= 5300  km, Bandwidth= 108  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 74 : Source= F , Destination= J , Path= F -> J , SP Length= 1200  km, Bandwidth= 184  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 75 : Source= F , Destination= K , Path= F -> E -> D -> K , SP Length= 4300  km, Bandwidth= 152  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 76 : Source= F , Destination= L , Path= F -> E -> D -> K -> L , SP Length= 5100  km, Bandwidth= 103  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 77 : Source= F , Destination= M , Path= F -> E -> D -> K -> L -> M , SP Length= 5600  km, Bandwidth= 140  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 78 : Source= F , Destination= N , Path= F -> E -> D -> K -> I -> N , SP Length= 5800  km, Bandwidth= 200  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 79 : Source= G , Destination= A , Path= G -> E -> D -> A , SP Length= 2500  km, Bandwidth= 198  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 80 : Source= G , Destination= B , Path= G -> E -> D -> A -> B , SP Length= 3600  km, Bandwidth= 134  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 81 : Source= G , Destination= C , Path= G -> E -> D -> C , SP Length= 2100  km, Bandwidth= 199  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 82 : Source= G , Destination= D , Path= G -> E -> D , SP Length= 1500  km, Bandwidth= 156  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 83 : Source= G , Destination= E , Path= G -> E , SP Length= 700  km, Bandwidth= 107  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 84 : Source= G , Destination= F , Path= G -> E -> F , SP Length= 1800  km, Bandwidth= 141  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 85 : Source= G , Destination= H , Path= G -> H , SP Length= 700  km, Bandwidth= 113  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 86 : Source= G , Destination= I , Path= G -> E -> D -> K -> I , SP Length= 4900  km, Bandwidth= 178  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 87 : Source= G , Destination= J , Path= G -> J , SP Length= 1300  km, Bandwidth= 109  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 88 : Source= G , Destination= K , Path= G -> E -> D -> K , SP Length= 3900  km, Bandwidth= 200  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 89 : Source= G , Destination= L , Path= G -> E -> D -> K -> L , SP Length= 4700  km, Bandwidth= 101  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 90 : Source= G , Destination= M , Path= G -> E -> D -> K -> L -> M , SP Length= 5200  km, Bandwidth= 139  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 91 : Source= G , Destination= N , Path= G -> E -> D -> K -> I -> N , SP Length= 5400  km, Bandwidth= 144  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 92 : Source= H , Destination= A , Path= H -> G -> E -> D -> A , SP Length= 3200  km, Bandwidth= 172  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 93 : Source= H , Destination= B , Path= H -> G -> E -> D -> A -> B , SP Length= 4300  km, Bandwidth= 122  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 94 : Source= H , Destination= C , Path= H -> G -> E -> D -> C , SP Length= 2800  km, Bandwidth= 191  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 95 : Source= H , Destination= D , Path= H -> G -> E -> D , SP Length= 2200  km, Bandwidth= 185  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 96 : Source= H , Destination= E , Path= H -> G -> E , SP Length= 1400  km, Bandwidth= 177  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 97 : Source= H , Destination= F , Path= H -> G -> E -> F , SP Length= 2500  km, Bandwidth= 180  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 98 : Source= H , Destination= G , Path= H -> G , SP Length= 700  km, Bandwidth= 201  Gbps, Modulation= 16-QAM , Slots Needed= 2 , Success= True
+Request 99 : Source= H , Destination= I , Path= H -> G -> E -> D -> K -> I , SP Length= 5600  km, Bandwidth= 190  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 100 : Source= H , Destination= J , Path= H -> G -> J , SP Length= 2000  km, Bandwidth= 179  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 101 : Source= H , Destination= K , Path= H -> G -> E -> D -> K , SP Length= 4600  km, Bandwidth= 187  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 102 : Source= H , Destination= L , Path= H -> G -> E -> D -> K -> L , SP Length= 5400  km, Bandwidth= 137  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 103 : Source= H , Destination= M , Path= H -> G -> E -> D -> K -> L -> M , SP Length= 5900  km, Bandwidth= 100  Gbps, Modulation= QPSK , Slots Needed= 2 , Success= True
+Request 104 : Source= H , Destination= N , Path= H -> G -> E -> D -> K -> I -> N , SP Length= 6100  km, Bandwidth= 112  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 105 : Source= I , Destination= A , Path= I -> K -> D -> A , SP Length= 4400  km, Bandwidth= 144  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 106 : Source= I , Destination= B , Path= I -> K -> B , SP Length= 3800  km, Bandwidth= 184  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 107 : Source= I , Destination= C , Path= I -> K -> D -> C , SP Length= 4000  km, Bandwidth= 117  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 108 : Source= I , Destination= D , Path= I -> K -> D , SP Length= 3400  km, Bandwidth= 167  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 109 : Source= I , Destination= E , Path= I -> K -> D -> E , SP Length= 4200  km, Bandwidth= 105  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 110 : Source= I , Destination= F , Path= I -> K -> D -> E -> F , SP Length= 5300  km, Bandwidth= 126  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 111 : Source= I , Destination= G , Path= I -> K -> D -> E -> G , SP Length= 4900  km, Bandwidth= 191  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 112 : Source= I , Destination= H , Path= I -> K -> D -> E -> G -> H , SP Length= 5600  km, Bandwidth= 158  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 113 : Source= I , Destination= J , Path= I -> K -> D -> E -> G -> J , SP Length= 6200  km, Bandwidth= 148  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 114 : Source= I , Destination= K , Path= I -> K , SP Length= 1000  km, Bandwidth= 143  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 115 : Source= I , Destination= L , Path= I -> L , SP Length= 500  km, Bandwidth= 147  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 116 : Source= I , Destination= M , Path= I -> M , SP Length= 500  km, Bandwidth= 111  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 117 : Source= I , Destination= N , Path= I -> N , SP Length= 500  km, Bandwidth= 146  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 118 : Source= J , Destination= A , Path= J -> G -> E -> D -> A , SP Length= 3800  km, Bandwidth= 156  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 119 : Source= J , Destination= B , Path= J -> G -> E -> D -> A -> B , SP Length= 4900  km, Bandwidth= 150  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 120 : Source= J , Destination= C , Path= J -> F -> C , SP Length= 3200  km, Bandwidth= 149  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 121 : Source= J , Destination= D , Path= J -> G -> E -> D , SP Length= 2800  km, Bandwidth= 183  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 122 : Source= J , Destination= E , Path= J -> G -> E , SP Length= 2000  km, Bandwidth= 141  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 123 : Source= J , Destination= F , Path= J -> F , SP Length= 1200  km, Bandwidth= 194  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 124 : Source= J , Destination= G , Path= J -> G , SP Length= 1300  km, Bandwidth= 104  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 125 : Source= J , Destination= H , Path= J -> G -> H , SP Length= 2000  km, Bandwidth= 120  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 126 : Source= J , Destination= I , Path= J -> G -> E -> D -> K -> I , SP Length= 6200  km, Bandwidth= 188  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 127 : Source= J , Destination= K , Path= J -> G -> E -> D -> K , SP Length= 5200  km, Bandwidth= 163  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 128 : Source= J , Destination= L , Path= J -> G -> E -> D -> K -> L , SP Length= 6000  km, Bandwidth= 144  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 129 : Source= J , Destination= M , Path= J -> G -> E -> D -> K -> L -> M , SP Length= 6500  km, Bandwidth= 129  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 130 : Source= J , Destination= N , Path= J -> G -> E -> D -> K -> I -> N , SP Length= 6700  km, Bandwidth= 191  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 131 : Source= K , Destination= A , Path= K -> D -> A , SP Length= 3400  km, Bandwidth= 147  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 132 : Source= K , Destination= B , Path= K -> B , SP Length= 2800  km, Bandwidth= 122  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 133 : Source= K , Destination= C , Path= K -> D -> C , SP Length= 3000  km, Bandwidth= 166  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 134 : Source= K , Destination= D , Path= K -> D , SP Length= 2400  km, Bandwidth= 126  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 135 : Source= K , Destination= E , Path= K -> D -> E , SP Length= 3200  km, Bandwidth= 175  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 136 : Source= K , Destination= F , Path= K -> D -> E -> F , SP Length= 4300  km, Bandwidth= 154  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 137 : Source= K , Destination= G , Path= K -> D -> E -> G , SP Length= 3900  km, Bandwidth= 197  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 138 : Source= K , Destination= H , Path= K -> D -> E -> G -> H , SP Length= 4600  km, Bandwidth= 187  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 139 : Source= K , Destination= I , Path= K -> I , SP Length= 1000  km, Bandwidth= 171  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 140 : Source= K , Destination= J , Path= K -> D -> E -> G -> J , SP Length= 5200  km, Bandwidth= 149  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 141 : Source= K , Destination= L , Path= K -> L , SP Length= 800  km, Bandwidth= 108  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 142 : Source= K , Destination= M , Path= K -> L -> M , SP Length= 1300  km, Bandwidth= 187  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 143 : Source= K , Destination= N , Path= K -> I -> N , SP Length= 1500  km, Bandwidth= 100  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 144 : Source= L , Destination= A , Path= L -> K -> D -> A , SP Length= 4200  km, Bandwidth= 153  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 145 : Source= L , Destination= B , Path= L -> K -> B , SP Length= 3600  km, Bandwidth= 155  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 146 : Source= L , Destination= C , Path= L -> K -> D -> C , SP Length= 3800  km, Bandwidth= 123  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 147 : Source= L , Destination= D , Path= L -> K -> D , SP Length= 3200  km, Bandwidth= 143  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 148 : Source= L , Destination= E , Path= L -> K -> D -> E , SP Length= 4000  km, Bandwidth= 169  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 149 : Source= L , Destination= F , Path= L -> K -> D -> E -> F , SP Length= 5100  km, Bandwidth= 119  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 150 : Source= L , Destination= G , Path= L -> K -> D -> E -> G , SP Length= 4700  km, Bandwidth= 161  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 151 : Source= L , Destination= H , Path= L -> K -> D -> E -> G -> H , SP Length= 5400  km, Bandwidth= 132  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 152 : Source= L , Destination= I , Path= L -> I , SP Length= 500  km, Bandwidth= 154  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 153 : Source= L , Destination= J , Path= L -> K -> D -> E -> G -> J , SP Length= 6000  km, Bandwidth= 111  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 154 : Source= L , Destination= K , Path= L -> K , SP Length= 800  km, Bandwidth= 197  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 155 : Source= L , Destination= M , Path= L -> M , SP Length= 500  km, Bandwidth= 197  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 156 : Source= L , Destination= N , Path= L -> M -> N , SP Length= 800  km, Bandwidth= 191  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 157 : Source= M , Destination= A , Path= M -> L -> K -> D -> A , SP Length= 4700  km, Bandwidth= 115  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 158 : Source= M , Destination= B , Path= M -> L -> K -> B , SP Length= 4100  km, Bandwidth= 195  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= True
+Request 159 : Source= M , Destination= C , Path= M -> L -> K -> D -> C , SP Length= 4300  km, Bandwidth= 124  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 160 : Source= M , Destination= D , Path= M -> L -> K -> D , SP Length= 3700  km, Bandwidth= 125  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 161 : Source= M , Destination= E , Path= M -> L -> K -> D -> E , SP Length= 4500  km, Bandwidth= 149  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= False
+Request 162 : Source= M , Destination= F , Path= M -> L -> K -> D -> E -> F , SP Length= 5600  km, Bandwidth= 200  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= False
+Request 163 : Source= M , Destination= G , Path= M -> L -> K -> D -> E -> G , SP Length= 5200  km, Bandwidth= 121  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= False
+Request 164 : Source= M , Destination= H , Path= M -> L -> K -> D -> E -> G -> H , SP Length= 5900  km, Bandwidth= 155  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= False
+Request 165 : Source= M , Destination= I , Path= M -> I , SP Length= 500  km, Bandwidth= 156  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 166 : Source= M , Destination= J , Path= M -> L -> K -> D -> E -> G -> J , SP Length= 6500  km, Bandwidth= 185  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= False
+Request 167 : Source= M , Destination= K , Path= M -> L -> K , SP Length= 1300  km, Bandwidth= 106  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 168 : Source= M , Destination= L , Path= M -> L , SP Length= 500  km, Bandwidth= 137  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 169 : Source= M , Destination= N , Path= M -> N , SP Length= 300  km, Bandwidth= 110  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 170 : Source= N , Destination= A , Path= N -> I -> K -> D -> A , SP Length= 4900  km, Bandwidth= 195  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= False
+Request 171 : Source= N , Destination= B , Path= N -> I -> K -> B , SP Length= 4300  km, Bandwidth= 148  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= True
+Request 172 : Source= N , Destination= C , Path= N -> I -> K -> D -> C , SP Length= 4500  km, Bandwidth= 121  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= False
+Request 173 : Source= N , Destination= D , Path= N -> I -> K -> D , SP Length= 3900  km, Bandwidth= 128  Gbps, Modulation= 8-QAM , Slots Needed= 2 , Success= True
+Request 174 : Source= N , Destination= E , Path= N -> I -> K -> D -> E , SP Length= 4700  km, Bandwidth= 144  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= False
+Request 175 : Source= N , Destination= F , Path= N -> I -> K -> D -> E -> F , SP Length= 5800  km, Bandwidth= 140  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= False
+Request 176 : Source= N , Destination= G , Path= N -> I -> K -> D -> E -> G , SP Length= 5400  km, Bandwidth= 199  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= False
+Request 177 : Source= N , Destination= H , Path= N -> I -> K -> D -> E -> G -> H , SP Length= 6100  km, Bandwidth= 124  Gbps, Modulation= QPSK , Slots Needed= 3 , Success= False
+Request 178 : Source= N , Destination= I , Path= N -> I , SP Length= 500  km, Bandwidth= 161  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 179 : Source= N , Destination= J , Path= N -> I -> K -> D -> E -> G -> J , SP Length= 6700  km, Bandwidth= 168  Gbps, Modulation= QPSK , Slots Needed= 4 , Success= False
+Request 180 : Source= N , Destination= K , Path= N -> I -> K , SP Length= 1500  km, Bandwidth= 185  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 181 : Source= N , Destination= L , Path= N -> M -> L , SP Length= 800  km, Bandwidth= 109  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+Request 182 : Source= N , Destination= M , Path= N -> M , SP Length= 300  km, Bandwidth= 172  Gbps, Modulation= 16-QAM , Slots Needed= 1 , Success= True
+The fail probability is: 0.06593406593406594
+The no. of failed requests are:  12

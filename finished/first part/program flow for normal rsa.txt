@@ -1,0 +1,26 @@
+Start
+   │
+   ├── Import libraries
+   │
+   ├── Define network graph
+   │
+   ├── Extract edges
+   │
+   ├── Initialize RSA slots
+   │
+   ├── Define modulation formats
+   │
+   ├── For every source-destination pair
+   │       │
+   │       ├── Find shortest path (Dijkstra)
+   │       ├── Generate bandwidth request
+   │       ├── Select best modulation format
+   │       ├── Calculate required slots
+   │       ├── Try slot allocation
+   │       ├── Store request result
+   │       └── Print slot usage	    
+   │
+   ├── Print request log
+   │
+   └── Calculate fail probability
+End
